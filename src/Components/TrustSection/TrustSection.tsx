@@ -14,7 +14,7 @@ function TrustSection() {
           <article>
             {texts?.TrustSection?.DetailsLeft?.map((info, index)=>
               <div key={index} className="TourFeature">
-                  <img src={Check} loading="lazy" alt="Check Trust" />
+                  <img src={Check} loading="lazy" alt="Check Trust" width="34" height="34" />
                   <p><span>{info.BoldTitle}</span>{info.Description}</p>
               </div>   
             )}
@@ -22,7 +22,7 @@ function TrustSection() {
           <article>
             {texts?.TrustSection?.DetailsRight?.map((info, index)=>
               <div className="TourFeature" key={index} >
-                  <img src={Check} loading="lazy" alt="Check Trust" />
+                  <img src={Check} loading="lazy" alt="Check Trust" width="34" height="34"/>
                   <p><span>{info.BoldTitle}</span>{info.Description}</p>
               </div>   
             )}
