@@ -57,6 +57,7 @@ body{
 .HeroContainer{
   max-width: 100%;
   position: relative;
+  min-height: 500px; 
   
 }
 .HeroBackground{
@@ -162,8 +163,8 @@ body{
 @media only screen and (max-width: 767px) {
     /* Estilos para móviles */
   .Content >:nth-child(1){
-  max-width: 40%;
-  max-height: 40%;
+  max-width: 144px;
+  max-height: 144px;
 }
 .Content >:nth-child(2){
   font-size: 40px;
@@ -200,7 +201,8 @@ body{
   font-size: 18px;
 }
 .Content >:nth-child(6){
-  max-width: 94%;
+  max-width: 96%;
+  height: auto;
 }
 }
 
@@ -227,6 +229,11 @@ body{
   font-size: 24px;
   max-width: 500px;
 }
+.Content >:nth-child(6){
+  font-size: 24px;
+  max-width: 60%;
+  height: auto;
+}
 .HeroBackground{
   height: 65vh;
 }
@@ -252,6 +259,10 @@ body{
     font-size: 24px;
     max-width: 600px;
   } 
+  .Content >:nth-child(6){
+  font-size: 24px;
+  max-width: 60%;
+}
     
 }
 

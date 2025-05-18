@@ -8,7 +8,7 @@ const {texts} = useLanguage();
     <div className="HeroContainer">
       <div className="HeroBackground"></div>
       <div className="Content">
-        <img src={Logo} alt="Canelo Tours Logo" loading="lazy" width={210} height={210} />
+        <img src={Logo} alt="Canelo Tours Logo" width={216} height={216}  />
         <h1>
           {texts.HeroSection.HeroTitle}
         </h1>
@@ -16,13 +16,13 @@ const {texts} = useLanguage();
           {texts.HeroSection.Description}
         </p>
         <button>
-          <img src={Formimg} alt="Calendar Icon" loading="lazy" width={25} height={25} />
+          <img src={Formimg} alt="Calendar Icon" width={25} height={25} />
           <p>{texts.HeroSection.ReservationButton}</p>
         </button>
         <p>
           {texts.HeroSection.Price}
         </p>
-        <img className="paymethods" src={PayMethods} alt="Payment Methods" loading="lazy" width={800} height={80} />
+        <img className="paymethods" src={PayMethods} alt="Payment Methods" width={800} height={80}/>
       </div>
     </div>
   )
