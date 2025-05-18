@@ -13,8 +13,6 @@ function App() {
         <LanguageSelector/>
         <Hero/>
         <TrustSection/>
-        <RealRiders/>
-        <WhatsIncluded/>
       </LanguageProvider>
     </>
   )
