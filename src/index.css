@@ -1,0 +1,493 @@
+:root{
+  background-color: #8C4938;
+}
+body{
+  margin: 0%;
+}
+
+/*LANGUAGE SELECTOR STYLES*/
+.LanguageSelector{
+  font-size: 20px;
+  padding: 10px 15px;
+  font-weight: bold;
+  line-height: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 5px 15px;
+  z-index: 10;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  border-radius: 3px;
+  color: #333;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0px none none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.selected{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.selected img{
+  width: 35px;
+}
+.dropdown img{
+  width: 35px;
+}
+.option{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  transition: all 0.3s ease;
+  text-transform: capitalize;
+  font-weight: lighter;
+}
+.option:hover{
+  background-color: #444;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+
+
+
+
+/* HERO STYLES */
+.HeroContainer{
+  max-width: 100%;
+  position: relative;
+  
+}
+.HeroBackground{
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.5) blur(0.5px); 
+  z-index: -1;
+  mask-image: linear-gradient(brown 60%, transparent);
+}
+
+.Content{
+  text-align: center;
+  padding-top: 45px;
+  
+}
+.Content >:nth-child(1){
+  max-width: 210px;
+  max-height: 210px;
+}
+.Content >:nth-child(2){
+  font-family: "Baloo Bhai 2", Sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: -10px;
+  font-size: 65px;
+  font-weight: 900;
+  color: white;
+  line-height: 1;
+}
+.Content >:nth-child(3){
+  font-family: "Baloo 2", Sans-serif;
+  max-width: 749px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  line-height: 1;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.Content >:nth-child(4){
+  font-family: "Raleway", Sans-serif;
+  background-color: #315C52;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  padding: 0px 40px 0px 40px;
+  color: white;
+  border: 3px white solid;
+  cursor: pointer;
+  line-height: 1;
+  transition: all 0.4s ease;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.Content button img{
+  width: 25px;
+  height: 25px;
+}
+.Content button{
+  margin: auto;
+  margin-bottom: -10px;
+}
+.Content >:nth-child(4):hover{
+  background-color: #C5A221;
+  transition: all 0.4s ease;
+  border: 3px #C5A221 solid ;
+  
+}
+.Content >:nth-child(5){
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
+}
+.Content >:nth-child(6){
+  max-width: 60%;
+}
+.Content .paymethods img{
+  width: 100px;
+}
+
+/*SMALLEST SMARTPHONE RESPONSIVE DESIGN*/
+@media only screen and (min-width: 540px) and (max-width: 720px) {
+  .Content >:nth-child(2){
+    max-width: 350px;
+    margin: 0 auto;
+  }
+    .Content >:nth-child(3){
+    font-size: 20px;
+    max-width: 400px;
+  }
+}
+
+
+/* GENERAL MOBILE RESPONSIVE DESIGN */
+@media only screen and (max-width: 767px) {
+    /* Estilos para móviles */
+  .Content >:nth-child(1){
+  max-width: 40%;
+  max-height: 40%;
+}
+.Content >:nth-child(2){
+  font-size: 40px;
+  max-width: 350px;
+  margin: 0 auto;
+  margin-top: 8px;
+  margin-bottom: -10px;
+}
+.Content >:nth-child(3){
+  font-size: 20px;
+  max-width: 360px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.Content{
+  text-align: center;
+  padding-top: 29px;
+}
+.Content >:nth-child(4){
+  font-size: 16px;
+  border-width: 2px 2px 2px 2px;
+  display: flex;
+  justify-content: center;
+  padding: 0%;
+  align-items: center;
+  margin: 0 auto;
+  width: 95%;
+}
+.Content button img{
+  width: 20px;
+  height: 20px;
+}
+.Content >:nth-child(5){
+  font-size: 18px;
+}
+.Content >:nth-child(6){
+  max-width: 94%;
+}
+}
+
+
+
+/*TABLETS RESPONSIVE DESIGN*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Estilos para tabletas */
+  .Content >:nth-child(1){
+   max-width: 28%;
+  max-height: 40%;
+}
+.Content{
+  text-align: center;
+  padding-top: 10px;
+}
+.Content >:nth-child(2){
+  font-size: 44px;
+  max-width: 550px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.Content >:nth-child(3){
+  font-size: 24px;
+  max-width: 500px;
+}
+.HeroBackground{
+  height: 65vh;
+}
+}
+
+/* MAX 1024 TABLETS RESPONSIVE DESIGN*/
+@media only screen and (min-width: 1024px) {
+    /* Estilos para escritorios */
+   .Content >:nth-child(1){
+    max-width: 21%;
+    max-height: 40%;
+  } 
+  .Content{
+    padding-top: 10px;
+  }
+  .Content >:nth-child(2){
+    font-size: 44px;
+    max-width: 700px;
+    margin-top: 10px;
+    padding: 0%;
+  } 
+  .Content >:nth-child(3){
+    font-size: 24px;
+    max-width: 600px;
+  } 
+    
+}
+
+/* Max 1280 Desktop Responsive*/
+@media only screen and (min-width: 1280px) {
+    /* Estilos para escritorios */
+   .Content >:nth-child(1){
+    max-width: 18%;
+    max-height: 40%;
+  } 
+  .Content{
+    padding-top: 10px;
+  }
+  .Content >:nth-child(2){
+    font-size: 65px;
+    max-width: 800px;
+    margin-top: 10px;
+    padding: 0%;
+  } 
+  .Content >:nth-child(3){
+    font-size: 30px;
+  } 
+  .Content >:nth-child(6){
+    max-width: 700px;
+   }
+}
+
+/*Max 1500 Desktop Responsive*/
+@media only screen and (min-width: 1500px) {
+    /* Estilos para escritorios Mas Grande */
+    .Content{
+      padding-top: 40px;
+    }
+   .Content >:nth-child(1){
+    width: 11%;
+    margin-bottom: 30px;
+   }
+   .Content >:nth-child(3){
+    max-width: 700px;
+   }
+   .Content >:nth-child(6){
+    max-width: 700px;
+   }
+}
+
+/*TRUSTSECTION STYLES*/
+
+.TrustSectionGeneral{
+  max-width: 100%;
+}
+.TrustSectiontitles{
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+.TrustSectiontitles >:nth-child(1){
+  font-family: "Pacifico", Sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.TrustSectiontitles >:nth-child(2){
+  font-family: "Baloo 2", Sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-top: -52px;
+}
+
+.DetailsTrustSection{
+  position: relative;
+  max-width: 60%;
+  height: 320px;
+  display: flex;
+  margin: auto;
+  margin-top: -30px;
+}
+.DetailsTrustSection::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("assets/Imgs/TrustSection/BackgroundTrustSection.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  bottom: 0%;
+  z-index: -1;
+}
+.DetailsTrustSection >:nth-child(1){
+  font-family: "Raleway", Sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 50px 50px 50px 50px;
+  margin: auto;
+  color:#315C52;
+  width: 40%;
+}
+.DetailsTrustSection span{
+  font-weight: bold;
+}
+.DetailsTrustSection >:nth-child(3){
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 100px;
+  margin: auto;
+  left: 0%;
+  right: 0%;
+  height: 320px;
+  top: 0px;
+  bottom: 0px;
+  z-index: -1;
+}
+.DetailsTrustSection >:nth-child(2){
+   font-family: "Raleway", Sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 50px 50px 50px 50px;
+  margin: auto;
+  color:#315C52;
+  width: 40%;
+}
+.TourFeature{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.TourFeature img{
+  width: 34px;
+  height: 34px;
+}
+
+/* GENERAL MOBILE RESPONSIVE DESIGN */
+@media only screen and (max-width: 767px) {
+    /* Estilos para móviles */
+  .TrustSectiontitles >:nth-child(1){
+  font-size: 30px;
+  }
+  .TrustSectiontitles >:nth-child(2){
+    font-size: 20px;
+    margin-top: -30px;
+  }
+  .DetailsTrustSection{
+  flex-direction: column;
+  max-width: 100%;
+  height: 420px;
+  margin-top: 0%;
+  }
+  .DetailsTrustSection::before{
+  background-size: cover;
+}
+.DetailsTrustSection >:nth-child(1){
+  width: 90%;
+  padding: 0%;
+  font-size: 14px;
+}
+.DetailsTrustSection >:nth-child(2){
+  margin-top: -50px;
+  width: 90%;
+  padding: 0%;
+  font-size: 14px;
+}
+.TourFeature img{
+  width: 24px;
+  height: 24px;
+}
+}
+
+/*TABLETS RESPONSIVE DESIGN*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Estilos para tabletas */
+  .DetailsTrustSection{
+  flex-direction: column;
+  max-width: 100%;
+  height: 420px;
+  }
+  .DetailsTrustSection::before{
+  background-size: cover;
+}
+.DetailsTrustSection >:nth-child(1){
+  width: 90%;
+  padding: 0%;
+}
+.DetailsTrustSection >:nth-child(2){
+  margin-top: -40px;
+  width: 90%;
+  padding: 0%;
+}
+}
+
+/* MAX 1024 TABLETS RESPONSIVE DESIGN*/
+@media only screen and (min-width: 1024px) {
+    /* Estilos para escritorios */
+   .DetailsTrustSection{
+  margin-top: -50px;
+  position: relative;
+  max-width: 100%;
+  height: 420px;
+}
+.DetailsTrustSection::before{
+  background-size: contain;
+  width: 100%;
+}  
+.DetailsTrustSection >:nth-child(1){
+  width: 55%;
+}  
+.DetailsTrustSection >:nth-child(2){
+  width: 55%;
+}  
+}
+
+/* Max 1280 Desktop Responsive*/
+@media only screen and (min-width: 1280px) {
+    /* Estilos para escritorios */
+   .DetailsTrustSection::before{
+    background-size: contain;
+  }
+  .DetailsTrustSection{
+  position: relative;
+  max-width: 80%;
+  height: 420px;
+}
+}
+
+/*Max 1500 Desktop Responsive*/
+@media only screen and (min-width: 1500px) {
+    /* Estilos para escritorios Mas Grande */
+   .DetailsTrustSection{
+  position: relative;
+  max-width: 70%;
+  height: 420px;
+}
+.DetailsTrustSection::before{
+  background-size: contain;
+}
+}
