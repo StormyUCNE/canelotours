@@ -22,7 +22,7 @@ function TrustSection() {
           <article>
             {texts?.TrustSection?.DetailsRight?.map((info, index)=>
               <div className="TourFeature" key={index} >
-                  <img src={Check} loading="lazy" alt="Check Trust" width="34" height="34"/>
+                  <img src={Check} loading="lazy" alt="Check Trust" width={53} height={37}/>
                   <p><span>{info.BoldTitle}</span>{info.Description}</p>
               </div>   
             )}

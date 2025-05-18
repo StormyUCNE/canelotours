@@ -26,7 +26,7 @@ function LanguageSelector() {
     <>
         <div className="LanguageSelector">
           <div className="selected" onClick={() => setOpen(!open)}>
-              <img src={current?.icon} alt={current?.label} />
+              <img src={current?.icon} alt={current?.label} width={35} height={35} />
               <span>{current?.code}</span>
               <span className="arrow">&#9662;</span>
           </div>
@@ -41,7 +41,7 @@ function LanguageSelector() {
                       setOpen(false);
                   }}
                   >
-                  <img src={opt.icon} alt={opt.label} />
+                  <img src={opt.icon} alt={opt.label} width={35} height={35} />
                   <span>{opt.label}</span>
                   </div>
               ))}
