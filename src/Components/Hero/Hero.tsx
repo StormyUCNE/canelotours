@@ -1,25 +1,16 @@
 import PayMethods from "../../assets/Imgs/Hero/Paymentmethods.webp";
-import { useEffect } from "react";
 import HerobackgroundMobile from "../../assets/Imgs/Hero/HeroImgMobile.webp";
 import Logo from "../../assets/Imgs/Hero/HeroLogo.webp";
+import LogoMobile from "../../assets/Imgs/Hero/HeroLogoMobile.webp";
 import Formimg from "../../assets/Imgs/Hero/FormImg.png";
 import { useLanguage } from "../Language/LanguageContext";
 function Hero() {
 const {texts} = useLanguage();
-useEffect(() => {
-    const link = document.createElement("link");
-    link.rel = "preload";
-    link.as = "image";
-    link.href = HerobackgroundMobile; // esta es la ruta exacta con hash
-    link.type = "image/webp";
-    link.setAttribute("importance", "high");
-    document.head.appendChild(link);
-  }, []);
   return (
     <div className="HeroContainer">
-      <img className="HeroBackground" src={HerobackgroundMobile} alt="Background Img" loading="eager" width="800" height="500"/>
+      <img className="HeroBackground" src={HerobackgroundMobile} alt="Background Img" loading="eager" width="900" height="600"/>
       <div className="Content">
-        <img src={Logo} alt="Canelo Tours Logo" width={600} height={600}  />
+        <img src={LogoMobile} alt="Canelo Tours Logo" width={220} height={220}  />
         <h1>
           {texts.HeroSection.HeroTitle}
         </h1>
@@ -33,7 +24,7 @@ useEffect(() => {
         <p>
           {texts.HeroSection.Price}
         </p>
-        <img className="paymethods" src={PayMethods} alt="Payment Methods" width={1000} height={118}/>
+        <img className="paymethods" src={PayMethods} alt="Payment Methods" width={800} height={94}/>
       </div>
     </div>
   )
