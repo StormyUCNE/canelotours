@@ -1,5 +1,4 @@
 import PayMethods from "../../assets/Imgs/Hero/Paymentmethods.webp";
-import Herobackground from "../../assets/Imgs/Hero/HeroImg.webp";
 import HerobackgroundMobile from "../../assets/Imgs/Hero/HeroImgMobile.webp";
 import Logo from "../../assets/Imgs/Hero/HeroLogo.webp";
 import Formimg from "../../assets/Imgs/Hero/FormImg.png";
@@ -8,14 +7,9 @@ function Hero() {
 const {texts} = useLanguage();
   return (
     <div className="HeroContainer">
-      <img className="HeroBackground"
-  srcSet={`${HerobackgroundMobile} 800w, ${Herobackground} 1920w`}
-  sizes="(max-width: 768px) 100vw, 1920px"
-  src={Herobackground}
-  alt="Background Img"
-  loading="eager"/>
+      <img className="HeroBackground" src={HerobackgroundMobile} alt="Background Img" loading="eager" width="800" height="500"/>
       <div className="Content">
-        <img src={Logo} alt="Canelo Tours Logo" width={216} height={216}  />
+        <img src={Logo} alt="Canelo Tours Logo" width={600} height={600}  />
         <h1>
           {texts.HeroSection.HeroTitle}
         </h1>
@@ -29,7 +23,7 @@ const {texts} = useLanguage();
         <p>
           {texts.HeroSection.Price}
         </p>
-        <img className="paymethods" src={PayMethods} alt="Payment Methods" width={800} height={80}/>
+        <img className="paymethods" src={PayMethods} alt="Payment Methods" width={1000} height={118}/>
       </div>
     </div>
   )

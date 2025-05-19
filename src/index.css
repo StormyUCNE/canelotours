@@ -214,8 +214,7 @@ body{
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     /* Estilos para tabletas */
   .Content >:nth-child(1){
-   max-width: 28%;
-  max-height: 40%;
+   width: 40%;
 }
 .Content{
   text-align: center;
@@ -245,8 +244,7 @@ body{
 @media only screen and (min-width: 1024px) {
     /* Estilos para escritorios */
    .Content >:nth-child(1){
-    max-width: 21%;
-    max-height: 40%;
+    width: 40%;
   } 
   .Content{
     padding-top: 10px;
@@ -264,6 +262,7 @@ body{
   .Content >:nth-child(6){
   font-size: 24px;
   max-width: 60%;
+  height: auto;
 }
     
 }
@@ -272,16 +271,15 @@ body{
 @media only screen and (min-width: 1280px) {
     /* Estilos para escritorios */
    .Content >:nth-child(1){
-    max-width: 18%;
-    max-height: 40%;
+    width: 40%;
   } 
   .Content{
-    padding-top: 10px;
+    padding-top: 40px;
   }
   .Content >:nth-child(2){
     font-size: 65px;
     max-width: 800px;
-    margin-top: 10px;
+    margin-top: 30px;
     padding: 0%;
   } 
   .Content >:nth-child(3){
