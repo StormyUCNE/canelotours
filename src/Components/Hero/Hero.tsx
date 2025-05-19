@@ -7,7 +7,7 @@ function Hero() {
 const {texts} = useLanguage();
   return (
     <div className="HeroContainer">
-      <img className="HeroBackground" src={HerobackgroundMobile} alt="Background Img" loading="eager" width="900" height="600"/>
+      <img className="HeroBackground" src={HerobackgroundMobile} alt="Background Img" loading="eager" width={400} height={267}/>
       <div className="Content">
         <img src={LogoMobile} alt="Canelo Tours Logo" width={220} height={220}  />
         <h1>
