@@ -162,6 +162,9 @@ body{
 /* GENERAL MOBILE RESPONSIVE DESIGN */
 @media only screen and (max-width: 767px) {
     /* Estilos para móviles */
+  .HeroBackground{
+    background-image: url("/src/assets/Imgs/Hero/HeroImgMobile.webp");
+  }
   .Content >:nth-child(1){
   max-width: 144px;
   max-height: 144px;
