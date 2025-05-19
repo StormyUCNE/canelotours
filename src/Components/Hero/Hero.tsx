@@ -1,5 +1,4 @@
 import PayMethods from "../../assets/Imgs/Hero/Paymentmethods.webp";
-import HerobackgroundMobile from "../../assets/Imgs/Hero/HeroImgMobile.webp";
 import LogoMobile from "../../assets/Imgs/Hero/HeroLogoMobile.webp";
 import Formimg from "../../assets/Imgs/Hero/FormImg.png";
 import { useLanguage } from "../Language/LanguageContext";
