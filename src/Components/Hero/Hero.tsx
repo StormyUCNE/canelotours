@@ -1,4 +1,5 @@
 import PayMethods from "../../assets/Imgs/Hero/Paymentmethods.webp";
+import Herobackground2 from "../../assets/Imgs/Hero/HeroImgMobile.webp";
 import Logo from "../../assets/Imgs/Hero/HeroLogo.webp";
 import Formimg from "../../assets/Imgs/Hero/FormImg.png";
 import { useLanguage } from "../Language/LanguageContext";
@@ -6,7 +7,7 @@ function Hero() {
 const {texts} = useLanguage();
   return (
     <div className="HeroContainer">
-      <div className="HeroBackground"></div>
+      <img src={Herobackground2} loading="eager" alt="Background Img" className="HeroBackground"/>
       <div className="Content">
         <img src={Logo} alt="Canelo Tours Logo" width={216} height={216}  />
         <h1>

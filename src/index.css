@@ -61,15 +61,17 @@ body{
   
 }
 .HeroBackground{
-  background-image: url("/src/assets/Imgs/Hero/HeroImg.webp");
   position: absolute;
   inset: 0;
-  background-size: cover;
-  background-position: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center; 
   background-color: #f0f0f0; 
-  filter: brightness(0.5); 
+  filter: brightness(0.5);
   z-index: -1;
   mask-image: linear-gradient(brown 60%, transparent);
+  mask-size: cover;
 }
 
 .Content{
@@ -162,10 +164,6 @@ body{
 /* GENERAL MOBILE RESPONSIVE DESIGN */
 @media only screen and (max-width: 767px) {
     /* Estilos para móviles */
-  .HeroBackground{
-    background-image: url("/src/assets/Imgs/Hero/HeroImgMobile.webp");
-    max-width: 500px;
-  }
   .Content >:nth-child(1){
   max-width: 144px;
   max-height: 144px;
