@@ -164,6 +164,7 @@ body{
     /* Estilos para móviles */
   .HeroBackground{
     background-image: url("/src/assets/Imgs/Hero/HeroImgMobile.webp");
+    max-width: 500px;
   }
   .Content >:nth-child(1){
   max-width: 144px;
