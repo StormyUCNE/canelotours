@@ -1,10 +1,20 @@
 import PayMethods from "../../assets/Imgs/Hero/Paymentmethods.webp";
+import { useEffect } from "react";
 import HerobackgroundMobile from "../../assets/Imgs/Hero/HeroImgMobile.webp";
 import Logo from "../../assets/Imgs/Hero/HeroLogo.webp";
 import Formimg from "../../assets/Imgs/Hero/FormImg.png";
 import { useLanguage } from "../Language/LanguageContext";
 function Hero() {
 const {texts} = useLanguage();
+useEffect(() => {
+    const link = document.createElement("link");
+    link.rel = "preload";
+    link.as = "image";
+    link.href = HerobackgroundMobile; // esta es la ruta exacta con hash
+    link.type = "image/webp";
+    link.setAttribute("importance", "high");
+    document.head.appendChild(link);
+  }, []);
   return (
     <div className="HeroContainer">
       <img className="HeroBackground" src={HerobackgroundMobile} alt="Background Img" loading="eager" width="800" height="500"/>
