@@ -1,5 +1,5 @@
 :root{
-  background-color: #8C4938;
+  background-color: #A8583C;
 }
 body{
   margin: 0%;
@@ -60,21 +60,25 @@ body{
   min-height: 500px; 
   
 }
-.HeroBackground{
-  background-image: url("/src/assets/Imgs/Hero/HeroImg.webp");
+.HeroBackground,
+.HeroBackground img {
   position: absolute;
-  inset: 0;
-  background-size: cover;
-  background-position: center;
-  background-color: #f0f0f0; 
-  filter: brightness(0.5); 
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
+  mask-image: linear-gradient(#A8583C 70%, transparent);
   z-index: -1;
-  mask-image: linear-gradient(brown 60%, transparent);
 }
+
+
 
 .Content{
   text-align: center;
   padding-top: 45px;
+  background-color: transparent;
   
 }
 .Content >:nth-child(1){
@@ -162,9 +166,6 @@ body{
 /* GENERAL MOBILE RESPONSIVE DESIGN */
 @media only screen and (max-width: 767px) {
     /* Estilos para móviles */
-    .HeroBackground{
-      background-image: url("/src/assets/Imgs/Hero/HeroImgMobile.webp");
-    }
   .Content >:nth-child(1){
   max-width: 144px;
   max-height: 144px;

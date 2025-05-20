@@ -1,4 +1,6 @@
 import PayMethods from "../../assets/Imgs/Hero/Paymentmethods.webp";
+import HeroDesktop from "../../assets/Imgs/Hero/HeroImg.webp"
+import HeroMobile from "../../assets/Imgs/Hero/HeroImgMobile.webp"
 import LogoMobile from "../../assets/Imgs/Hero/HeroLogoMobile.webp";
 import Formimg from "../../assets/Imgs/Hero/FormImg.png";
 import { useLanguage } from "../Language/LanguageContext";
@@ -6,7 +8,18 @@ function Hero() {
 const {texts} = useLanguage();
   return (
     <div className="HeroContainer">
-      <div className="HeroBackground"></div>
+      <picture className="HeroBackground">
+          <source
+            srcSet={HeroDesktop}
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <img
+            src={HeroMobile}
+            alt="Descripción del hero"
+            loading="lazy"
+          />
+        </picture>
       <div className="Content">
         <img src={LogoMobile} alt="Canelo Tours Logo" width={220} height={220}  />
         <h1>
