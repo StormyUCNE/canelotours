@@ -92,4 +92,39 @@ body{
   max-width: 205px;
   height: auto;
 }
+.Fisttitle{
+  font-size: 65px;
+  width: 690px;
+  text-align: center;
+  color: white;
+}
+.Description{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  width: 650px;
+}
+.BookingButton button{
+  font-size: 22px;
+  padding: 20px 40px 20px 40px;
+}
+.Price{
+  font-size: 22px;
+  color: #fff;
+}
+.Payments img{
+  width: 900px;
+}
+
+@media screen and (max-width: 768px) {
+  .Fisttitle{
+    font-size: 40px;
+    width: 320px;
+  }
+  .Description{
+    font-size: 20px;
+    width: 400px;
+  }
+  
+}
 

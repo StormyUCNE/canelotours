@@ -26,11 +26,11 @@ function Hero() {
       </picture>
       <div className="HeroContent">
         <img className="Logo" src={Logo} alt="Hero Logo" width={1080} height={1080} />
-        <p>{texts.HeroSection.HeroTitle}</p>
-        <p>{texts.HeroSection.Description}</p>
-        <a href="#"><button>{texts.HeroSection.ReservationButton}</button></a>
-        <p>{texts.HeroSection.Price}</p>
-        <img src={Paymentmethods} alt="Payment methods" width={1412} height={166}  />
+        <p className="Fisttitle">{texts.HeroSection.HeroTitle}</p>
+        <p className="Description">{texts.HeroSection.Description}</p>
+        <a className="BookingButton" href="#"><button>{texts.HeroSection.ReservationButton}</button></a>
+        <p className="Price">{texts.HeroSection.Price}</p>
+        <img className="Payments" src={Paymentmethods} alt="Payment methods" width={1412} height={166}  />
       </div>
     </div>
   )
