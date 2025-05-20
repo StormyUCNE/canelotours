@@ -17,7 +17,7 @@ const {texts} = useLanguage();
           <img
             src={HeroMobile}
             alt="Descripción del hero"
-            loading="lazy"
+            fetchPriority="high"
           />
         </picture>
       <div className="Content">
