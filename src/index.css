@@ -60,7 +60,7 @@ body{
   min-height: 30vh;
 }
 .HeroBackground img{
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   position: absolute;
   top: 0%;
@@ -138,7 +138,7 @@ body{
 
 @media screen and (max-width: 768px) {
   .HeroContent .Logo{
-    max-width: 140px;
+    max-width: 145px;
     margin-top: 40px;
   }
   .Fisttitle{
