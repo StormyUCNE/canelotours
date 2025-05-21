@@ -1,5 +1,4 @@
-import HeroDesktop from "../../assets/Imgs/Hero/HeroImg.webp"
-import HeroMobile from "../../assets/Imgs/Hero/HeroImgMobile.webp"
+
 import { useLanguage } from "../Language/LanguageContext"
 import Logo from "../../assets/Imgs/Hero/HeroLogo.webp"
 import Paymentmethods from "../../assets/Imgs/Hero/Paymentmethods.webp"
@@ -9,14 +8,14 @@ function Hero() {
     <div className="HeroContainer">
       <picture className="HeroBackground">
         <source
-          srcSet={HeroDesktop}
+          srcSet="public/Imgs/Hero/HeroImg.webp"
           media="(min-width: 768px)"
           type="image/webp"
           width={1920} 
           height={1080}
         />
         <img
-          src={HeroMobile}
+          src="public/Imgs/Hero/HeroImgMobile.webp"
           alt="Descripción del hero"
           fetchPriority="high"
           loading="eager"
