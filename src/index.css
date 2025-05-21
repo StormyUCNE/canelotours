@@ -283,3 +283,72 @@ body{
   width: 35px;
   height: 24px;
 }
+
+/*Mobile Responsive*/
+@media screen and (max-width: 767px) {
+  .TrustTitles{
+    margin-top: 0%;
+    margin-bottom: 40px;
+  }
+  .TrustTitles >:nth-child(1){
+    font-size: 30px;
+  }
+  .TrustTitles >:nth-child(2){
+    font-size: 20px;
+  }
+  .TrustContent{
+    flex-direction: column;
+    align-items:baseline;
+    justify-content: center;
+    gap: 0;
+    font-size: 14px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 4%;
+    padding-right: 4%;
+    height: 100%;
+  }
+  .TrustBackground{
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .LeftDetailsItems img{
+    width: 25px;
+    height: auto;
+  }
+  .RightDetailsItems img{
+    width: 25px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 820px){
+  .TrustTitles{
+    margin-top: 0%;
+    margin-bottom: 40px;
+  }
+  .TrustContent{
+    flex-direction: column;
+    align-items:baseline;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    gap: 0;
+    font-size: 17px;
+  }
+  .TrustBackground{
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+  }
+}
+
+@media screen and (max-width: 1280px){
+  .TrustContent{
+    margin-top: 70px;
+  }
+}
+
