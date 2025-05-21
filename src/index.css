@@ -126,6 +126,14 @@ body{
   background-color: #315C52;
   border-style: solid;
   border-width: 3px 3px 3px 3px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.BookingButton button:hover{
+  background-color: #C5A221;
+  border-color: #C5A221;
+  transition: background 0.3s ease;
+  box-shadow: 0px 15px 20px -8px rgba(0, 0, 0, 0.5);
 }
 .Price{
   font-size: 22px;
@@ -205,3 +213,73 @@ body{
   }
 }
 
+/*TrustSection Styles*/
+.TrustGeneral{
+  max-width: 100%;
+}
+.TrustTitles{
+  line-height: 1;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+.TrustTitles >:nth-child(1){
+  font-family: "Pacifico", Sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 45px;
+  margin-bottom: -4%;
+}
+.TrustTitles >:nth-child(2){
+  font-family: "Baloo 2", Sans-serif;
+  font-weight: 500;
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-bottom: 0%;
+}
+.TrustBackground{
+  max-width: 100%;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  z-index: -1;
+  margin: auto;
+}
+
+.TrustContent{
+  display: flex;
+  max-width: 1000px;
+  align-items: center;
+  height: 40vh;
+  gap: 30px;
+  margin: auto;
+  font-family: "Raleway", Sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #315C52;
+  position: relative;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.TrustContent span{
+  font-weight: bold;
+}
+.LeftDetailsItems{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.LeftDetailsItems img{
+  width: 35px;
+  height: 24px;
+}
+.RightDetailsItems{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.RightDetailsItems img{
+  width: 35px;
+  height: 24px;
+}
