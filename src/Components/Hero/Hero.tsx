@@ -19,9 +19,9 @@ function Hero() {
           src={HeroMobile}
           alt="Descripción del hero"
           fetchPriority="high"
-          width={768}   
-          height={1024}
           loading="eager"
+          width={800}   
+          height={533}
         />
       </picture>
       <div className="HeroContent">
