@@ -8,14 +8,14 @@ function Hero() {
     <div className="HeroContainer">
       <picture className="HeroBackground">
         <source
-          srcSet="public/Imgs/Hero/HeroImg.webp"
+          srcSet="/Imgs/Hero/HeroImg.webp"
           media="(min-width: 768px)"
           type="image/webp"
           width={1920} 
           height={1080}
         />
         <img
-          src="public/Imgs/Hero/HeroImgMobile.webp"
+          src="/Imgs/Hero/HeroImgMobile.webp"
           alt="Descripción del hero"
           fetchPriority="high"
           loading="eager"
