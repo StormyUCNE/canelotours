@@ -55,12 +55,13 @@ body{
 
 /* HERO STYLES */
 .HeroContainer{
-  max-width: 100%;
+  width: 100%;
   position: relative;
-  min-height: 30vh;
+  min-height: 70vh; 
+  overflow: hidden;
 }
 .HeroBackground img{
-  max-width: 100%;
+  width: 100%;
   height: 100%;
   position: absolute;
   top: 0%;
@@ -87,10 +88,12 @@ body{
   justify-content: center;
   align-items: center;
 }
-.HeroContent img{
-  max-width: 205px;
+.Logo{
+  max-width: 210px;
   height: auto;
+  margin-top: 33px;
 }
+
 .Fisttitle{
   font-family: "Baloo Bhai 2", Sans-serif;
   font-size: 65px;
@@ -100,6 +103,7 @@ body{
   width: 800px;
   text-align: center;
   color: #FFFFFF;
+  margin-top: 40px;
   margin-bottom: 0%;
 
 }
@@ -135,13 +139,15 @@ body{
   height: auto;
 }
 
-
-@media screen and (max-width: 768px) {
-  .HeroContent .Logo{
-    max-width: 145px;
-    margin-top: 40px;
+/*Mobile Responsive*/
+@media screen and (max-width: 767px) {
+  .Logo{
+    max-width: 170px;
+    height: auto;
+    margin-top: 30px;
   }
   .Fisttitle{
+    margin-top: 10px;
     font-size: 40px;
     width: 320px;
   }
@@ -150,6 +156,9 @@ body{
     width: 90%;
     margin-left: 10px;
     margin-right: 10px;
+  }
+  .Price{
+    font-size: 18px;
   }
   .HeroContent .Payments{
     max-width: 96%;
@@ -170,8 +179,29 @@ body{
   background-color: #315C52;
   border-style: solid;
   border-width: 2px 2px 2px 2px;
+}  
 }
 
-  
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .HeroContainer{
+    min-height: 52vh; 
+
+  }
+  .Logo{
+    margin-top: 10px;
+  }
+  .Fisttitle{
+    font-size: 44px;
+    max-width: 565px;
+    margin-top: 0%;
+  }
+  .Description{
+    font-size: 24px;
+    max-width: 450px;
+  }
+  .HeroContent .Payments{
+    max-width: 60%;
+    height: auto;
+  }
 }
 
