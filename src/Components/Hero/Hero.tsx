@@ -12,25 +12,25 @@ function Hero() {
           srcSet={HeroDesktop}
           media="(min-width: 768px)"
           type="image/webp"
-          width={1920} 
-          height={1080}
+          width={900} 
+          height={900}
         />
         <img
           src={HeroMobile}
           alt="Descripción del hero"
           fetchPriority="high"
           loading="eager"
-          width={800}   
-          height={533}
+          width={600}   
+          height={600}
         />
       </picture>
       <div className="HeroContent">
-        <img className="Logo" src={Logo} alt="Hero Logo" loading="lazy" decoding="async" width={800} height={800} />
+        <img className="Logo" src={Logo} alt="Hero Logo" loading="lazy" decoding="async" width={300} height={300} />
         <p className="Fisttitle">{texts.HeroSection.HeroTitle}</p>
         <p className="Description">{texts.HeroSection.Description}</p>
         <a className="BookingButton" href="#"><button>{texts.HeroSection.ReservationButton}</button></a>
         <p className="Price">{texts.HeroSection.Price}</p>
-        <img className="Payments" src={Paymentmethods} loading="lazy" decoding="async" alt="Payment methods" width={1412} height={166}  />
+        <img className="Payments" src={Paymentmethods} loading="lazy" decoding="async" alt="Payment methods" width={700} height={700}  />
       </div>
     </div>
   )
