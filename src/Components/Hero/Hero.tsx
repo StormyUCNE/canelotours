@@ -25,7 +25,7 @@ function Hero() {
         />
       </picture>
       <div className="HeroContent">
-        <img className="Logo" src={Logo} alt="Hero Logo" loading="lazy" decoding="async" width={1080} height={1080} />
+        <img className="Logo" src={Logo} alt="Hero Logo" loading="lazy" decoding="async" width={800} height={800} />
         <p className="Fisttitle">{texts.HeroSection.HeroTitle}</p>
         <p className="Description">{texts.HeroSection.Description}</p>
         <a className="BookingButton" href="#"><button>{texts.HeroSection.ReservationButton}</button></a>
