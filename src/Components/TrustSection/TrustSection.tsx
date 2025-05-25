@@ -9,6 +9,7 @@ function TrustSection() {
         <div className="TrustTitles">
             <p>{texts.TrustSection.ReservationTitle}</p>
             <p>{texts.TrustSection.Reservationsubtitle}</p>
+            <p>{texts.TrustSection.AdjectiveSubtitle}</p>
         </div>
         <div className="TrustContent">
           <div>

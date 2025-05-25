@@ -9,7 +9,8 @@ export const Language={
         },
         TrustSection:{
             ReservationTitle: "Reserva con confianza",
-            Reservationsubtitle: "Tu aventura está en buenas manos",
+            Reservationsubtitle: "¿Qué hace que nuestros tours en ATV y Buggy en Punta Cana sean especiales?",
+            AdjectiveSubtitle: "Flexible, seguro y calificado entre las mejores cosas para hacer en Punta Cana.",
             DetailsLeft:[
                 {
                     BoldTitle: "Cancelación gratuita:",
@@ -50,7 +51,8 @@ export const Language={
         },
         TrustSection:{
             ReservationTitle: "Book With Confidence",
-            Reservationsubtitle: "Your adventure is in good hands",
+            Reservationsubtitle: "What Makes Our ATV and Buggy Tours in Punta Cana Special",
+            AdjectiveSubtitle: "Flexible, safe, and rated among the best things to do in Punta Cana",
             DetailsLeft:[
                 {
                     BoldTitle: "Free cancellation:",
@@ -91,7 +93,8 @@ export const Language={
         },
         TrustSection:{
             ReservationTitle: "Réservez en toute confiance",
-            Reservationsubtitle: "Votre aventure est entre de bonnes mains",
+            Reservationsubtitle: "Ce qui rend nos excursions en VTT et en buggy à Punta Cana spéciales",
+            AdjectiveSubtitle: "Flexible, sûr et classé parmi les meilleures choses à faire à Punta Cana",
             DetailsLeft:[
                 {
                     BoldTitle: "Annulation gratuite:",
@@ -132,7 +135,8 @@ export const Language={
         },
         TrustSection:{
             ReservationTitle: "Buchen Sie mit Vertrauen",
-            Reservationsubtitle: "Ihr Abenteuer ist in guten Händen",
+            Reservationsubtitle: "Was unsere ATV- und Buggy-Touren in Punta Cana so besonders macht",
+            AdjectiveSubtitle: "Flexibel, sicher und zählt zu den besten Aktivitäten in Punta Cana",
             DetailsLeft:[
                 {
                     BoldTitle: "Ihr Abenteuer ist in guten Händen:",
@@ -173,7 +177,8 @@ export const Language={
         },
         TrustSection:{
             ReservationTitle: "Prenota con fiducia",
-            Reservationsubtitle: "La tua avventura è in buone mani",
+            Reservationsubtitle: "Cosa rende speciali i nostri tour in quad e buggy a Punta Cana",
+            AdjectiveSubtitle: "Flessibile, sicuro e considerato tra le migliori attività da fare a Punta Cana",
             DetailsLeft:[
                 {
                     BoldTitle: "Cancellazione gratuita:",
@@ -214,7 +219,8 @@ export const Language={
         },
         TrustSection:{
             ReservationTitle: "Reserve com confiança",
-            Reservationsubtitle: "Sua aventura está em boas mãos",
+            Reservationsubtitle: "O que torna nossos passeios de quadriciclo e buggy em Punta Cana especiais",
+            AdjectiveSubtitle: "Flexível, seguro e classificado entre as melhores coisas para fazer em Punta Cana",
             DetailsLeft:[
                 {
                     BoldTitle: "Cancelamento gratuito:",
@@ -255,7 +261,8 @@ export const Language={
         },
         TrustSection:{
             ReservationTitle: "Бронируйте с уверенностью",
-            Reservationsubtitle: "Ваше приключение в надежных руках",
+            Reservationsubtitle: "Что делает наши туры на квадроциклах и багги в Пунта-Кане особенными",
+            AdjectiveSubtitle: "Гибкий, безопасный и признан одним из лучших развлечений в Пунта-Кане",
             DetailsLeft:[
                 {
                     BoldTitle: "Бесплатная отмена:",
@@ -296,7 +303,8 @@ export const Language={
         },
         TrustSection:{
             ReservationTitle: "Boek met vertrouwen",
-            Reservationsubtitle: "Uw avontuur is in goede handen",
+            Reservationsubtitle: "Wat onze ATV- en buggytochten in Punta Cana zo bijzonder maakt",
+            AdjectiveSubtitle: "Flexibel, veilig en beoordeeld als een van de beste dingen om te doen in Punta Cana",
             DetailsLeft:[
                 {
                     BoldTitle: "Gratis annuleren:",

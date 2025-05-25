@@ -7,8 +7,8 @@ function RealRiders() {
       <section className="RiderGeneral">
         <div className="HeadlineRiders">
           <p>Real Riders</p>
-          <p>Real Adventures</p>
-          <p>Get a glimpse of what your ATV or Buggy ride through Punta Cana really looks like. These are real moments, real riders, and unforgettable memories waiting for you.</p>
+          <p>What to Expect on Our ATV and Buggy Tours in Punta Cana</p>
+          <p>Get a glimpse of what our ATV and Buggy Tours in Punta Cana really feel like. These are real riders, real trails, and unforgettable memories captured on camera — just like your experience will be.</p>
         </div>
         <div className="RiderImages">
           <img className="RidersItemsImg BottomImgs" src={RealRiderImg1} alt="Real Rider Img 1" loading="lazy" />
