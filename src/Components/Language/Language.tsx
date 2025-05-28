@@ -39,6 +39,13 @@ export const Language={
                     Description: " 100% garantizada"
                 }
             ]
+        },
+        RealRiderSection:{
+            RealTitle: "Jinetes reales",
+            RealSubtitle: "¿Qué esperar en nuestros tours en ATV y Buggy en Punta Cana?",
+            RealDescription: "Experimente cómo se sienten realmente nuestros tours en ATV y Buggy en Punta Cana. Se trata de conductores reales, senderos reales y recuerdos inolvidables capturados en cámara, tal como será su experiencia.",
+            RealBookButton: "Reserva tu viaje ahora",
+            RealPrice: "Desde $35 USD por persona"
         }
     },
     //English Translate
@@ -81,6 +88,13 @@ export const Language={
                     Description: " 100% guaranteed."
                 }
             ]
+        },
+        RealRiderSection:{
+            RealTitle: "Real Riders",
+            RealSubtitle: "What to Expect on Our ATV and Buggy Tours in Punta Cana",
+            RealDescription: "Get a glimpse of what our ATV and Buggy Tours in Punta Cana really feel like. These are real riders, real trails, and unforgettable memories captured on camera — just like your experience will be.",
+            RealBookButton: "Book Your Ride Now",
+            RealPrice: "From $35 USD per person"
         }
     },
     //French Translate
@@ -123,6 +137,13 @@ export const Language={
                     Description: " garantie à 100%."
                 }
             ]
+        },
+        RealRiderSection:{
+            RealTitle: "De vrais cavaliers",
+            RealSubtitle: "À quoi s'attendre lors de nos excursions en VTT et en buggy à Punta Cana",
+            RealDescription: "Découvrez l'expérience authentique de nos excursions en quad et en buggy à Punta Cana. De vrais pilotes, de vrais sentiers et des souvenirs inoubliables immortalisés par votre appareil photo, à l'image de votre expérience.",
+            RealBookButton: "Réservez votre trajet maintenant",
+            RealPrice: "À partir de 35 USD par personne"
         }
     },
     //German Translate
@@ -165,6 +186,13 @@ export const Language={
                     Description: " garantiert"
                 }
             ]
+        },
+        RealRiderSection:{
+            RealTitle: "Echte Fahrer",
+            RealSubtitle: "Was Sie auf unseren ATV- und Buggy-Touren in Punta Cana erwartet",
+            RealDescription: "Erleben Sie, wie sich unsere ATV- und Buggy-Touren in Punta Cana wirklich anfühlen. Erleben Sie echte Fahrer, echte Trails und unvergessliche Erinnerungen, festgehalten auf Kamera – genau wie Ihr Erlebnis.",
+            RealBookButton: "Buchen Sie jetzt Ihre Fahrt",
+            RealPrice: "Ab 35 USD pro Person"
         }
     },
     //Italian Translate
@@ -207,6 +235,13 @@ export const Language={
                     Description: " garantita al 100%."
                 }
             ]
+        },
+        RealRiderSection:{
+            RealTitle: "Veri cavalieri",
+            RealSubtitle: "Cosa aspettarsi dai nostri tour in quad e buggy a Punta Cana",
+            RealDescription: "Scoprite l'esperienza dei nostri tour in quad e buggy a Punta Cana. Autentici piloti, sentieri autentici e ricordi indimenticabili immortalati in foto, proprio come la vostra esperienza.",
+            RealBookButton: "Prenota subito la tua corsa",
+            RealPrice: "A partire da $35 USD a persona"
         }
     },
     //Portuguese Translate
@@ -249,6 +284,13 @@ export const Language={
                     Description: " 100% garantida."
                 }
             ]
+        },
+        RealRiderSection:{
+            RealTitle: "Cavaleiros de verdade",
+            RealSubtitle: "O que esperar de nossos passeios de quadriciclo e buggy em Punta Cana",
+            RealDescription: "Dê uma olhada em como são nossos passeios de quadriciclo e buggy em Punta Cana. São pilotos de verdade, trilhas reais e memórias inesquecíveis capturadas em câmera — assim como a sua experiência será.",
+            RealBookButton: "Reserve sua viagem agora",
+            RealPrice: "A partir de US$35 por pessoa"
         }
     },
     //Russian Translate
@@ -291,6 +333,13 @@ export const Language={
                     Description: " гарантирована на 100%."
                 }
             ]
+        },
+        RealRiderSection:{
+            RealTitle: "Настоящие гонщики",
+            RealSubtitle: "Чего ожидать от наших туров на квадроциклах и багги в Пунта-Кане",
+            RealDescription: "Получите представление о том, каковы на самом деле наши туры на квадроциклах и багги в Пунта-Кане. Это настоящие райдеры, настоящие трассы и незабываемые воспоминания, запечатленные на камеру — такими же, какими будут ваши впечатления.",
+            RealBookButton: "Забронируйте поездку сейчас",
+            RealPrice: "От 35 долларов США на человека"
         }
     },
     //Dutch Translate
@@ -333,6 +382,13 @@ export const Language={
                     Description: " 100% gegarandeerd."
                 }
             ]
+        },
+        RealRiderSection:{
+            RealTitle: "Echte ruiters",
+            RealSubtitle: "Wat u kunt verwachten van onze ATV- en buggytochten in Punta Cana",
+            RealDescription: "Krijg een voorproefje van hoe onze ATV- en buggytours in Punta Cana er echt uitzien. Dit zijn echte rijders, echte trails en onvergetelijke herinneringen vastgelegd op camera – net zoals jouw ervaring zal zijn.",
+            RealBookButton: "Boek nu uw rit",
+            RealPrice: "Vanaf $ 35 USD per persoon"
         }
     }
 }
