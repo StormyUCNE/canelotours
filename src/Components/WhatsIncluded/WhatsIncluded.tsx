@@ -11,14 +11,16 @@ import RouteLine3 from "../../assets/Imgs/WhatsIncluded/RouteLine3.svg"
 import NumberThreeImg from "../../assets/Imgs/WhatsIncluded/NumberThreeLine.svg"
 import RouteLine4 from "../../assets/Imgs/WhatsIncluded/RouteLine4.svg"
 import NumberFourImg from "../../assets/Imgs/WhatsIncluded/NumberFourLine.svg"
+import { useLanguage } from "../Language/LanguageContext"
 function WhatsIncluded() {
+  const {texts} = useLanguage();
   return (
     <>
       <section className="IncludeGeneral">
           <div className="HeadlineInclude">
-            <p>Itinerary</p>
-            <p>What’s Included in Our ATV and Buggy Tours in Punta Cana</p>
-            <p>Everything you get with every ride – no hidden fees, just pure off-road adventure</p>
+            <p>{texts.WhatsIncludedSection.IncludeTitle}</p>
+            <p>{texts.WhatsIncludedSection.IncludeSubtitle}</p>
+            <p>{texts.WhatsIncludedSection.IncludeDescription}</p>
           </div>
 
           <div className="IncludeContentGeneral">
@@ -35,59 +37,59 @@ function WhatsIncluded() {
                 <div className="IntineraryRow1">
                   <div className="ItineraryRightContentRow1">
                     <img className="ItineraryImg" src={IncludeBusImg} loading="lazy" alt="Bus Transportation" />
-                    <p className="ResponsiveItineraryMainTitle">Round-trip Transportation & Full Experience Included</p>
+                    <p className="ResponsiveItineraryMainTitle">{texts.WhatsIncludedSection.Itinerary1.Title}</p>
                   </div> 
                   <div className="ItineraryContentRow1">
-                    <p className="ItineraryMainTitle">Round-trip Transportation & Full Experience Included</p>
-                    <p className="ItineraryDescription">Our ATV and Buggy Tours in Punta Cana include hotel pick-up and drop-off, a fully guided route, and incredible stops that showcase the best of the Dominican countryside.</p>
-                    <a href="#" className="ItineraryButton"><button>Start Your Adventure</button></a>
-                    <p className="ItineraryPrice">From $35 USD per person</p>
+                    <p className="ItineraryMainTitle">{texts.WhatsIncludedSection.Itinerary1.Title}</p>
+                    <p className="ItineraryDescription">{texts.WhatsIncludedSection.Itinerary1.Details}</p>
+                    <a href="#" className="ItineraryButton"><button>{texts.WhatsIncludedSection.Itinerary1.LinkBookButton}</button></a>
+                    <p className="ItineraryPrice">{texts.WhatsIncludedSection.Itinerary1.Price}</p>
                   </div>
                 </div>
 
                 <div className="IntineraryRow2">
                   <div className="ItineraryContentRow2">
-                    <p className="ItineraryMainTitle2">Typical Dominican House (30 Min)</p>
-                    <p className="ItineraryDescription2">During your ATV and Buggy Tour in Punta Cana, you’ll stop at a traditional Dominican house to taste local coffee, chocolate, organic tobacco, green tea, and mamajuana.</p>
+                    <p className="ItineraryMainTitle2">{texts.WhatsIncludedSection.Itinerary2.Title}</p>
+                    <p className="ItineraryDescription2">{texts.WhatsIncludedSection.Itinerary2.Details}</p>
                   </div>
                   <div className="ItineraryLeftContentRow2">
                     <img className="ItineraryImg2" src={IncludeHouseImg} alt="Typical Dominican House" loading="lazy" />
-                    <p className="ResponsiveItineraryMainTitle">Typical Dominican House (30 Min)</p>
+                    <p className="ResponsiveItineraryMainTitle">{texts.WhatsIncludedSection.Itinerary2.Title}</p>
                   </div>
                 </div>
 
                 <div className="IntineraryRow1">
                   <div className="ItineraryRightContentRow1">
                     <img className="ItineraryImg" src={IncludeCaveImg} alt="Natural Cave" loading="lazy" />
-                    <p className="ResponsiveItineraryMainTitle">Natural Cave Experience (40 Min)</p>
+                    <p className="ResponsiveItineraryMainTitle">{texts.WhatsIncludedSection.Itinerary3.Title}</p>
                   </div>
                   <div className="ItineraryContentRow1">
-                    <p className="ItineraryMainTitle">Natural Cave Experience (40 Min)</p>
-                    <p className="ItineraryDescription">One of the top highlights of our ATV and Buggy Tours in Punta Cana is the natural cave. Take a swim, explore this hidden gem, and refresh before continuing your adventure.</p>
+                    <p className="ItineraryMainTitle">{texts.WhatsIncludedSection.Itinerary3.Title}</p>
+                    <p className="ItineraryDescription">{texts.WhatsIncludedSection.Itinerary3.Details}</p>
                   </div>
                 </div>
 
                 <div className="IntineraryRow2">
                   <div className="ItineraryContentRow2">
-                    <p className="ItineraryMainTitle2">Macao Beach Punta Cana(40 Min)</p>
-                    <p className="ItineraryDescription2">Our ATV and Buggy Tours in Punta Cana include a stop at Macao Beach — one of the area’s most famous shorelines. Relax, take photos, shop, or grab a quick bite in paradise.</p>
+                    <p className="ItineraryMainTitle2">{texts.WhatsIncludedSection.Itinerary4.Title}</p>
+                    <p className="ItineraryDescription2">{texts.WhatsIncludedSection.Itinerary4.Details}</p>
                   </div>
                   <div className="ItineraryLeftContentRow2">
                     <img className="ItineraryImg2" src={IncludeBeachImg} alt="Punta Cana Beach" loading="lazy" />
-                    <p className="ResponsiveItineraryMainTitle">Macao Beach Punta Cana(40 Min)</p>
+                    <p className="ResponsiveItineraryMainTitle">{texts.WhatsIncludedSection.Itinerary4.Title}</p>
                   </div> 
                 </div>
 
                 <div className="IntineraryRow1">
                   <div className="ItineraryRightContentRow1">
                     <img className="ItineraryImg"  src={IncludeSouvenirsImg} alt="Souvenirs & Cooldown" />
-                    <p className="ResponsiveItineraryMainTitle">Base Arrival, Souvenirs & Cooldown</p>
+                    <p className="ResponsiveItineraryMainTitle">{texts.WhatsIncludedSection.Itinerary5.Title}</p>
                   </div>
                   <div className="ItineraryContentRow1">
-                    <p className="ItineraryMainTitle">Base Arrival, Souvenirs & Cooldown</p>
-                    <p className="ItineraryDescription">After your ATV and Buggy Tour in Punta Cana, return to base, browse souvenirs, and enjoy a cool-down moment while waiting for your return transportation.</p>
-                    <a href="#" className="ItineraryButton"><button>Reserve Your Spot</button></a>
-                    <p className="ItineraryPrice">From $35 USD per person</p>
+                    <p className="ItineraryMainTitle">{texts.WhatsIncludedSection.Itinerary5.Title}</p>
+                    <p className="ItineraryDescription">{texts.WhatsIncludedSection.Itinerary5.Details}</p>
+                    <a href="#" className="ItineraryButton"><button>{texts.WhatsIncludedSection.Itinerary5.LinkBookButton}</button></a>
+                    <p className="ItineraryPrice">{texts.WhatsIncludedSection.Itinerary5.Price}</p>
                   </div>
                 </div>
             </div>

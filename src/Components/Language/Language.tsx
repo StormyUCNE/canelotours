@@ -46,6 +46,36 @@ export const Language={
             RealDescription: "Experimente cómo se sienten realmente nuestros tours en ATV y Buggy en Punta Cana. Se trata de conductores reales, senderos reales y recuerdos inolvidables capturados en cámara, tal como será su experiencia.",
             RealBookButton: "Reserva tu viaje ahora",
             RealPrice: "Desde $35 USD por persona"
+        },
+        WhatsIncludedSection:{
+            IncludeTitle: "Itinerario",
+            IncludeSubtitle: "¿Qué incluye nuestro tour en ATV y Buggy en Punta Cana?",
+            IncludeDescription: "Todo lo que obtienes con cada viaje: sin cargos ocultos, solo pura aventura todoterreno",
+
+            Itinerary1:{
+                Title: "Transporte de ida y vuelta y experiencia completa incluida",
+                Details: "Nuestros tours en vehículos todoterreno y buggy en Punta Cana incluyen recogida y regreso al hotel, una ruta totalmente guiada y paradas increíbles que muestran lo mejor del campo dominicano.",
+                LinkBookButton: "Comienza tu aventura",
+                Price: "Desde $35 USD por persona"
+            },
+            Itinerary2:{
+                Title: "Casa típica dominicana (30 min)",
+                Details: "Durante su recorrido en ATV y Buggy en Punta Cana, se detendrá en una casa tradicional dominicana para probar café local, chocolate, tabaco orgánico, té verde y mamajuana."
+            },
+            Itinerary3:{
+                Title: "Experiencia en cueva natural (40 min)",
+                Details: "Uno de los atractivos principales de nuestros tours en cuatrimoto y buggy en Punta Cana es la cueva natural. Date un chapuzón, explora esta joya escondida y refréscate antes de continuar tu aventura."
+            },
+            Itinerary4:{
+                Title: "Playa Macao Punta Cana (40 min)",
+                Details: "Nuestros tours en cuatrimoto y buggy en Punta Cana incluyen una parada en Playa Macao, una de las playas más famosas de la zona. Relájese, tome fotos, compre o disfrute de un refrigerio rápido en el paraíso."
+            },
+            Itinerary5:{
+                Title: "Llegada a la base, cuerdos y enfriamiento",
+                Details: "Después de su recorrido en vehículos todoterreno y buggy en Punta Cana, regrese a la base, busque recuerdos y disfrute de un momento de relajación mientras espera su transporte de regreso.",
+                LinkBookButton: "Reserva tu lugar",
+                Price: "Desde $35 USD por persona"
+            }
         }
     },
     //English Translate
@@ -95,6 +125,36 @@ export const Language={
             RealDescription: "Get a glimpse of what our ATV and Buggy Tours in Punta Cana really feel like. These are real riders, real trails, and unforgettable memories captured on camera — just like your experience will be.",
             RealBookButton: "Book Your Ride Now",
             RealPrice: "From $35 USD per person"
+        },
+        WhatsIncludedSection:{
+            IncludeTitle: "Itinerary",
+            IncludeSubtitle: "What’s Included in Our ATV and Buggy Tours in Punta Cana",
+            IncludeDescription: "Everything you get with every ride – no hidden fees, just pure off-road adventure",
+
+            Itinerary1:{
+                Title: "Round-trip Transportation & Full Experience Included",
+                Details: "Our ATV and Buggy Tours in Punta Cana include hotel pick-up and drop-off, a fully guided route, and incredible stops that showcase the best of the Dominican countryside.",
+                LinkBookButton: "Start Your Adventure",
+                Price: "From $35 USD per person"
+            },
+            Itinerary2:{
+                Title: "Typical Dominican House (30 Min)",
+                Details: "During your ATV and Buggy Tour in Punta Cana, you’ll stop at a traditional Dominican house to taste local coffee, chocolate, organic tobacco, green tea, and mamajuana."
+            },
+            Itinerary3:{
+                Title: "Natural Cave Experience (40 Min)",
+                Details: "One of the top highlights of our ATV and Buggy Tours in Punta Cana is the natural cave. Take a swim, explore this hidden gem, and refresh before continuing your adventure."
+            },
+            Itinerary4:{
+                Title: "Macao Beach Punta Cana (40 Min)",
+                Details: "Our ATV and Buggy Tours in Punta Cana include a stop at Macao Beach — one of the area’s most famous shorelines. Relax, take photos, shop, or grab a quick bite in paradise."
+            },
+            Itinerary5:{
+                Title: "Base Arrival, Souvenirs & Cooldown",
+                Details: "After your ATV and Buggy Tour in Punta Cana, return to base, browse souvenirs, and enjoy a cool-down moment while waiting for your return transportation.",
+                LinkBookButton: "Reserve Your Spot",
+                Price: "From $35 USD per person"
+            }
         }
     },
     //French Translate
@@ -144,6 +204,36 @@ export const Language={
             RealDescription: "Découvrez l'expérience authentique de nos excursions en quad et en buggy à Punta Cana. De vrais pilotes, de vrais sentiers et des souvenirs inoubliables immortalisés par votre appareil photo, à l'image de votre expérience.",
             RealBookButton: "Réservez votre trajet maintenant",
             RealPrice: "À partir de 35 USD par personne"
+        },
+        WhatsIncludedSection:{
+            IncludeTitle: "Itinéraire",
+            IncludeSubtitle: "Ce qui est inclus dans nos excursions en VTT et en buggy à Punta Cana",
+            IncludeDescription: "Tout ce que vous obtenez à chaque trajet : pas de frais cachés, juste une pure aventure hors route",
+
+            Itinerary1:{
+                Title: "Transport aller-retour et expérience complète inclus",
+                Details: "Nos excursions en VTT et en buggy à Punta Cana comprennent la prise en charge et le retour à l'hôtel, un itinéraire entièrement guidé et des arrêts incroyables qui mettent en valeur le meilleur de la campagne dominicaine.",
+                LinkBookButton: "Commencez votre aventure",
+                Price: "À partir de 35 USD par personne"
+            },
+            Itinerary2:{
+                Title: "Maison typique dominicaine (30 min)",
+                Details: "Au cours de votre excursion en VTT et en buggy à Punta Cana, vous vous arrêterez dans une maison dominicaine traditionnelle pour déguster du café local, du chocolat, du tabac biologique, du thé vert et de la mamajuana."
+            },
+            Itinerary3:{
+                Title: "Expérience dans une grotte naturelle (40 min)",
+                Details: "L'un des points forts de nos excursions en quad et en buggy à Punta Cana est la grotte naturelle. Nagez, explorez ce joyau caché et rafraîchissez-vous avant de poursuivre votre aventure."
+            },
+            Itinerary4:{
+                Title: "Plage de Macao Punta Cana (40 min)",
+                Details: "Nos excursions en quad et en buggy à Punta Cana incluent un arrêt à la plage de Macao, l'un des rivages les plus célèbres de la région. Détendez-vous, prenez des photos, faites du shopping ou mangez un morceau dans ce paradis."
+            },
+            Itinerary5:{
+                Title: "Arrivée à la base, souvenirs et récupération",
+                Details: "Après votre excursion en VTT et en buggy à Punta Cana, retournez à la base, parcourez les souvenirs et profitez d'un moment de détente en attendant votre transport de retour.",
+                LinkBookButton: "Réservez votre place",
+                Price: "À partir de 35 USD par personne"
+            }
         }
     },
     //German Translate
@@ -193,6 +283,36 @@ export const Language={
             RealDescription: "Erleben Sie, wie sich unsere ATV- und Buggy-Touren in Punta Cana wirklich anfühlen. Erleben Sie echte Fahrer, echte Trails und unvergessliche Erinnerungen, festgehalten auf Kamera – genau wie Ihr Erlebnis.",
             RealBookButton: "Buchen Sie jetzt Ihre Fahrt",
             RealPrice: "Ab 35 USD pro Person"
+        },
+        WhatsIncludedSection:{
+            IncludeTitle: "Route",
+            IncludeSubtitle: "Was ist in unseren ATV- und Buggy-Touren in Punta Cana enthalten?",
+            IncludeDescription: "Alles, was Sie bei jeder Fahrt bekommen – keine versteckten Gebühren, nur pures Offroad-Abenteuer",
+
+            Itinerary1:{
+                Title: "Hin- und Rücktransport und umfassendes Erlebnis inklusive",
+                Details: "Unsere ATV- und Buggy-Touren in Punta Cana umfassen die Abholung und den Rücktransport vom Hotel, eine vollständig geführte Route und unglaubliche Stopps, die das Beste der dominikanischen Landschaft zeigen.",
+                LinkBookButton: "Beginne dein Abenteuer",
+                Price: "Ab 35 USD pro Person"
+            },
+            Itinerary2:{
+                Title: "Typisches Dominikanerhaus (30 Min.)",
+                Details: "Während Ihrer ATV- und Buggy-Tour in Punta Cana halten Sie an einem traditionellen dominikanischen Haus, um lokalen Kaffee, Schokolade, Bio-Tabak, grünen Tee und Mamajuana zu probieren."
+            },
+            Itinerary3:{
+                Title: "Natürliches Höhlenerlebnis (40 Min.)",
+                Details: "Eines der absoluten Highlights unserer ATV- und Buggy-Touren in Punta Cana ist die natürliche Höhle. Nehmen Sie ein Bad, erkunden Sie dieses verborgene Juwel und erfrischen Sie sich, bevor Ihr Abenteuer weitergeht."
+            },
+            Itinerary4:{
+                Title: "Macao Beach Punta Cana (40 Min.)",
+                Details: "Unsere ATV- und Buggy-Touren in Punta Cana beinhalten einen Stopp am Macao Beach – einem der berühmtesten Strände der Region. Entspannen Sie sich, machen Sie Fotos, shoppen Sie oder gönnen Sie sich einen kleinen Snack im Paradies."
+            },
+            Itinerary5:{
+                Title: "Ankunft an der Basis, Souvenirs und Abkühlung",
+                Details: "Kehren Sie nach Ihrer ATV- und Buggy-Tour in Punta Cana zur Basis zurück, stöbern Sie nach Souvenirs und genießen Sie einen Moment der Abkühlung, während Sie auf Ihren Rücktransport warten.",
+                LinkBookButton: "Reservieren Sie Ihren Platz",
+                Price: "Ab 35 USD pro Person"
+            }
         }
     },
     //Italian Translate
@@ -242,6 +362,36 @@ export const Language={
             RealDescription: "Scoprite l'esperienza dei nostri tour in quad e buggy a Punta Cana. Autentici piloti, sentieri autentici e ricordi indimenticabili immortalati in foto, proprio come la vostra esperienza.",
             RealBookButton: "Prenota subito la tua corsa",
             RealPrice: "A partire da $35 USD a persona"
+        },
+        WhatsIncludedSection:{
+            IncludeTitle: "Itinerario",
+            IncludeSubtitle: "Cosa è incluso nei nostri tour in ATV e Buggy a Punta Cana",
+            IncludeDescription: "Tutto ciò che ottieni con ogni giro: nessun costo nascosto, solo pura avventura fuoristrada",
+
+            Itinerary1:{
+                Title: "Trasporto di andata e ritorno ed esperienza completa inclusi",
+                Details: "I nostri tour in ATV e Buggy a Punta Cana includono il servizio di prelievo e rientro in hotel, un itinerario completamente guidato e soste incredibili che mostrano il meglio della campagna dominicana.",
+                LinkBookButton: "Inizia la tua avventura",
+                Price: "A partire da $ 35 USD a persona"
+            },
+            Itinerary2:{
+                Title: "Tipica casa dominicana (30 min)",
+                Details: "Durante il tuo tour in ATV e Buggy a Punta Cana, ti fermerai in una tradizionale casa dominicana per assaggiare caffè locale, cioccolato, tabacco biologico, tè verde e mamajuana."
+            },
+            Itinerary3:{
+                Title: "Esperienza in grotta naturale (40 min)",
+                Details: "Uno dei punti salienti dei nostri tour in quad e buggy a Punta Cana è la grotta naturale. Fate una nuotata, esplorate questa perla nascosta e rinfrescatevi prima di proseguire la vostra avventura."
+            },
+            Itinerary4:{
+                Title: "Spiaggia di Macao Punta Cana (40 min)",
+                Details: "I nostri tour in quad e buggy a Punta Cana includono una sosta a Macao Beach, uno dei litorali più famosi della zona. Rilassati, scatta foto, fai shopping o fai uno spuntino veloce in questo paradiso."
+            },
+            Itinerary5:{
+                Title: "Arrivo alla base, souvenir e raffreddamento",
+                Details: "Dopo il tour in ATV e Buggy a Punta Cana, torna alla base, curiosa tra i souvenir e goditi un momento di relax in attesa del mezzo di trasporto per il rientro.",
+                LinkBookButton: "Prenota il tuo posto",
+                Price: "A partire da $ 35 USD a persona"
+            }
         }
     },
     //Portuguese Translate
@@ -291,6 +441,36 @@ export const Language={
             RealDescription: "Dê uma olhada em como são nossos passeios de quadriciclo e buggy em Punta Cana. São pilotos de verdade, trilhas reais e memórias inesquecíveis capturadas em câmera — assim como a sua experiência será.",
             RealBookButton: "Reserve sua viagem agora",
             RealPrice: "A partir de US$35 por pessoa"
+        },
+        WhatsIncludedSection:{
+            IncludeTitle: "Itinerário",
+            IncludeSubtitle: "O que está incluído em nossos passeios de quadriciclo e buggy em Punta Cana",
+            IncludeDescription: "Tudo o que você ganha em cada viagem – sem taxas ocultas, apenas pura aventura off-road",
+
+            Itinerary1:{
+                Title: "Transporte de ida e volta e experiência completa incluídos",
+                Details: "Nossos passeios de quadriciclo e buggy em Punta Cana incluem embarque e desembarque no hotel, uma rota totalmente guiada e paradas incríveis que mostram o melhor do interior dominicano.",
+                LinkBookButton: "Comece sua aventura",
+                Price: "A partir de US$ 35 por pessoa"
+            },
+            Itinerary2:{
+                Title: "Casa típica dominicana (30 min)",
+                Details: "Durante seu passeio de quadriciclo e buggy em Punta Cana, você fará uma parada em uma casa tradicional dominicana para saborear café local, chocolate, tabaco orgânico, chá verde e mamajuana."
+            },
+            Itinerary3:{
+                Title: "Experiência em caverna natural (40 min)",
+                Details: "Um dos principais destaques dos nossos passeios de quadriciclo e buggy em Punta Cana é a caverna natural. Dê um mergulho, explore esta joia escondida e refresque-se antes de continuar sua aventura."
+            },
+            Itinerary4:{
+                Title: "Praia de Macau Punta Cana (40 min)",
+                Details: "Nossos passeios de quadriciclo e buggy em Punta Cana incluem uma parada na Praia de Macao — um dos litorais mais famosos da região. Relaxe, tire fotos, faça compras ou faça um lanche rápido no paraíso."
+            },
+            Itinerary5:{
+                Title: "Chegada à base, lembranças e tempo de espera",
+                Details: "Após seu passeio de quadriciclo e buggy em Punta Cana, retorne à base, dê uma olhada nos souvenirs e aproveite um momento de relaxamento enquanto aguarda seu transporte de retorno.",
+                LinkBookButton: "Reserve seu lugar",
+                Price: "A partir de US$ 35 por pessoa"
+            }
         }
     },
     //Russian Translate
@@ -340,6 +520,36 @@ export const Language={
             RealDescription: "Получите представление о том, каковы на самом деле наши туры на квадроциклах и багги в Пунта-Кане. Это настоящие райдеры, настоящие трассы и незабываемые воспоминания, запечатленные на камеру — такими же, какими будут ваши впечатления.",
             RealBookButton: "Забронируйте поездку сейчас",
             RealPrice: "От 35 долларов США на человека"
+        },
+        WhatsIncludedSection:{
+            IncludeTitle: "Маршрут",
+            IncludeSubtitle: "Что включено в наши туры на квадроциклах и багги в Пунта-Кане",
+            IncludeDescription: "Все, что вы получаете с каждой поездкой — никаких скрытых платежей, только чистое приключение на бездорожье",
+
+            Itinerary1:{
+                Title: "Транспорт туда и обратно и полный спектр услуг включены",
+                Details: "Наши туры на квадроциклах и багги в Пунта-Кане включают трансфер из отеля и обратно, полностью сопровождаемый маршрут и невероятные остановки, которые позволят вам увидеть все лучшее, что есть в сельской местности Доминиканской Республики.",
+                LinkBookButton: "Начни свое приключение",
+                Price: "От 35 долларов США на человека"
+            },
+            Itinerary2:{
+                Title: "Типичный доминиканский дом (30 мин)",
+                Details: "Во время тура на квадроциклах и багги в Пунта-Кане вы остановитесь в традиционном доминиканском доме, чтобы попробовать местный кофе, шоколад, органический табак, зеленый чай и мамахуану."
+            },
+            Itinerary3:{
+                Title: "Природный пещерный опыт (40 мин)",
+                Details: "Одной из главных достопримечательностей наших туров на квадроциклах и багги в Пунта-Кане является природная пещера. Поплавайте, исследуйте эту скрытую жемчужину и освежитесь, прежде чем продолжить приключение."
+            },
+            Itinerary4:{
+                Title: "Пляж Макао Пунта-Кана (40 мин)",
+                Details: "Наши туры на квадроциклах и багги в Пунта-Кане включают остановку на пляже Макао — одном из самых известных берегов в этом районе. Расслабьтесь, сделайте фотографии, пройдитесь по магазинам или быстро перекусите в раю."
+            },
+            Itinerary5:{
+                Title: "Прибытие на базу, сувениры и кулдаун",
+                Details: "После тура на квадроциклах и багги в Пунта-Кане вернитесь на базу, осмотрите сувениры и насладитесь моментом отдыха в ожидании обратного транспорта.",
+                LinkBookButton: "Забронируйте свое место",
+                Price: "От 35 долларов США на человека"
+            }
         }
     },
     //Dutch Translate
@@ -389,6 +599,36 @@ export const Language={
             RealDescription: "Krijg een voorproefje van hoe onze ATV- en buggytours in Punta Cana er echt uitzien. Dit zijn echte rijders, echte trails en onvergetelijke herinneringen vastgelegd op camera – net zoals jouw ervaring zal zijn.",
             RealBookButton: "Boek nu uw rit",
             RealPrice: "Vanaf $ 35 USD per persoon"
+        },
+        WhatsIncludedSection:{
+            IncludeTitle: "Routebeschrijving",
+            IncludeSubtitle: "Wat is inbegrepen bij onze ATV- en buggytours in Punta Cana?",
+            IncludeDescription: "Alles wat je bij elke rit krijgt – geen verborgen kosten, gewoon puur offroad-avontuur",
+
+            Itinerary1:{
+                Title: "Retourvervoer en volledige ervaring inbegrepen",
+                Details: "Onze ATV- en buggytours in Punta Cana zijn inclusief ophalen en afzetten bij uw hotel, een volledig begeleide route en ongelooflijke stops waarbij u het beste van het Dominicaanse platteland ziet.",
+                LinkBookButton: "Begin je avontuur",
+                Price: "Vanaf $ 35 USD per persoon"
+            },
+            Itinerary2:{
+                Title: "Typisch Dominicaans huis (30 min)",
+                Details: "Tijdens uw ATV- en buggytour in Punta Cana stopt u bij een traditioneel Dominicaans huis om lokale koffie, chocolade, biologische tabak, groene thee en mamajuana te proeven."
+            },
+            Itinerary3:{
+                Title: "Natuurlijke grotervaring (40 min)",
+                Details: "Een van de hoogtepunten van onze ATV- en buggytours in Punta Cana is de natuurlijke grot. Neem een ​​duik, verken deze verborgen parel en ontspan voordat je je avontuur voortzet."
+            },
+            Itinerary4:{
+                Title: "Macao Beach Punta Cana (40 min)",
+                Details: "Onze ATV- en buggytours in Punta Cana omvatten een stop bij Macao Beach, een van de beroemdste stranden van de regio. Ontspan, maak foto's, winkel of eet een snelle hap in het paradijs."
+            },
+            Itinerary5:{
+                Title: "Aankomst basis, souvenirs en afkoeling",
+                Details: "Na uw ATV- en buggytour in Punta Cana keert u terug naar de basis, kunt u souvenirs bekijken en even afkoelen terwijl u wacht op uw vervoer terug.",
+                LinkBookButton: "Reserveer uw plek",
+                Price: "Vanaf $ 35 USD per persoon"
+            }
         }
     }
 }
