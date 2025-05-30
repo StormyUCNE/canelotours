@@ -4,17 +4,21 @@ import ReviewerMiniLogo from "../../assets/Imgs/ReviewsSection/Reviewericon.webp
 import Verification from "../../assets/Imgs/ReviewsSection/VerifiedCheck.webp";
 import { useLanguage } from "../Language/LanguageContext";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper/modules';
+// @ts-ignore
 import 'swiper/css';
+// @ts-ignore
 import 'swiper/css/navigation';
+// @ts-ignore
 import 'swiper/css/pagination';
+import { Navigation, Pagination } from 'swiper/modules';
+
 import { useState } from "react";
 function ReviewsSection() {
     const {texts} = useLanguage();
-    const [expandedIndex, setExpandedIndex] = useState(null);
-    const handleToggle = (index) => {
+    const [expandedIndex, setExpandedIndex] = useState<number | null>(null)
+    const handleToggle = (index: number) => {
     setExpandedIndex(prev => (prev === index ? null : index));
-  };
+};
   return (
     <>
         <section className="ReviewGeneral">
