@@ -23,13 +23,13 @@ function ReviewsSection() {
     <>
         <section className="ReviewGeneral">
             <div className="ReviewHeadline">
-                <p>{texts.ReviewsSectionn.ReviewTitle}</p>
-                <p>{texts.ReviewsSectionn.ReviewSubtitle}</p>
-                <p>{texts.ReviewsSectionn.ReviewDescription}</p>
+                <p>{texts.ReviewsSection.ReviewTitle}</p>
+                <p>{texts.ReviewsSection.ReviewSubtitle}</p>
+                <p>{texts.ReviewsSection.ReviewDescription}</p>
             </div>
             <main className="ReviewsItemsContain">
                 <div className="RatingWidgetLeft">
-                    <p>{texts.ReviewsSectionn.RatingWidget.Title}</p>
+                    <p>{texts.ReviewsSection.RatingWidget.Title}</p>
                     <section className="StarsGroup">
                         <img src={StarsImgs} loading="lazy" alt="Stars" width={30} height={30} />
                         <img src={StarsImgs} loading="lazy" alt="Stars" width={30} height={30} />
@@ -37,12 +37,12 @@ function ReviewsSection() {
                         <img src={StarsImgs} loading="lazy" alt="Stars" width={30} height={30} />
                         <img src={StarsImgs} loading="lazy" alt="Stars" width={30} height={30} />
                     </section>
-                    <p>{texts.ReviewsSectionn.RatingWidget.RatingBased} <span>{texts.ReviewsSectionn.RatingWidget.RatingCount}</span></p>
+                    <p>{texts.ReviewsSection.RatingWidget.RatingBased} <span>{texts.ReviewsSectionn.RatingWidget.RatingCount}</span></p>
                     <img className="ReviewerLogo" src={ReviewerLogo} loading="lazy" alt="Reviewer Logo" width={200}  />
                 </div>
                 <div className="ReviewSlider">
                     <Swiper className="Swiper" modules={[Navigation, Pagination]} pagination={{clickable: true, el: '.custom-bullet-pagination', bulletClass: 'custom-bullet', bulletActiveClass: 'custom-bullet-active'}} spaceBetween={0} slidesPerView={3} navigation breakpoints={{0: {slidesPerView: 1,}, 829:{slidesPerView:2}, 1125:{slidesPerView:3}}}>
-                        {texts.ReviewsSectionn.ReviewsCards.map((values, index) =>{
+                        {texts.ReviewsSection.ReviewsCards.map((values, index) =>{
                         const isExpanded = expandedIndex === index;
                         return (
                         <SwiperSlide key={index}>

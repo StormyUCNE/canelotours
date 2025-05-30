@@ -166,7 +166,7 @@ export const Language={
                 Price: "From $35 USD per person"
             }
         },
-        ReviewsSectionn:{
+        ReviewsSection:{
             ReviewTitle: "What Our Guests Say",
             ReviewSubtitle: "Real Reviews About Canelo Tours",
             ReviewDescription: "Verified reviews from TripAdvisor who experienced the tour of a lifetime in Punta Cana with us",
