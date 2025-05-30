@@ -37,7 +37,7 @@ function ReviewsSection() {
                         <img src={StarsImgs} loading="lazy" alt="Stars" width={30} height={30} />
                         <img src={StarsImgs} loading="lazy" alt="Stars" width={30} height={30} />
                     </section>
-                    <p>{texts.ReviewsSection.RatingWidget.RatingBased} <span>{texts.ReviewsSectionn.RatingWidget.RatingCount}</span></p>
+                    <p>{texts.ReviewsSection.RatingWidget.RatingBased} <span>{texts.ReviewsSection.RatingWidget.RatingCount}</span></p>
                     <img className="ReviewerLogo" src={ReviewerLogo} loading="lazy" alt="Reviewer Logo" width={200}  />
                 </div>
                 <div className="ReviewSlider">
