@@ -86,7 +86,95 @@ export const Language={
                 LinkBookButton: "Reserva tu lugar",
                 Price: "Desde $35 USD por persona"
             }
+        },
+        ReviewsSection:{
+            ReviewTitle: "Lo que dicen nuestros huéspedes",
+            ReviewSubtitle: "Reseñas reales sobre Canelo Tours",
+            ReviewDescription: "Reseñas verificadas de TripAdvisor de quienes experimentaron el recorrido de su vida en Punta Cana con nosotros",
+            RatingWidget:{
+                Title: "EXCELENTE",
+                RatingBased: "Basado en",
+                RatingCount: "702 reseñas"
+            },
+            TextView: {
+                ReadMore: "Leer Más",
+                ReadLess: "Esconder"
+            },
+            ReviewsCards:[
+                {
+                    ProfilePicture: ProfilePicture1,
+                    PersonName: "Dominic S",
+                    PublicationDate: "7 de mayo de 2025",
+                    MainDescription: "Maravilloso sendero y aventura.",
+                    Opinion: "Increíble aventura y liderada por un increíble guía turístico, Julio. Muchas gracias cada vez por hacer que este viaje a República Dominicana sea especial. Bendiciones."
+                },
+                {
+                    ProfilePicture: ProfilePicture2,
+                    PersonName: "Rochelle P",
+                    PublicationDate: "7 de mayo de 2025",
+                    MainDescription: "10/10",
+                    Opinion: "Soy tu guía turístico. Julio fue increíble y paciente. Una actividad fantástica para el cumpleaños de mi pareja aventurera. Lo recomiendo."
+                },
+                {
+                    ProfilePicture: ProfilePicture3,
+                    PersonName: "Jovon B",
+                    PublicationDate: "7 de mayo de 2025",
+                    MainDescription: "Fue una experiencia increíble.",
+                    Opinion: "Julio fue un guía increíble, muy servicial y recomiendo contratar uno. Me ayudó especialmente cuando perdí la espalda rápidamente y me ayudó a retomar el camino."
+                },
+                {
+                    ProfilePicture: ProfilePicture4,
+                    PersonName: "Harrison S",
+                    PublicationDate: "7 de mayo de 2025",
+                    MainDescription: "El viaje en pareja",
+                    Opinion: "de Julio fue muy divertido. Se aseguraron de que estuviéramos seguros. Mi esposa y yo lo pasamos genial. Los vehículos todoterreno son un poco difíciles de controlar. Asegúrense de venir preparados. En general, fue una experiencia genial."
+                },
+                {
+                    ProfilePicture: ProfilePicture5,
+                    PersonName: "Gamecocks123",
+                    PublicationDate: "6 de mayo de 2025",
+                    MainDescription: "¡Valió cada centavo!",
+                    Opinion: "Lo pasamos genial! Optamos por los 4x4 y lo pasamos genial... no podríamos haber pedido un mejor guía. German hizo todo lo posible para asegurarse de que lo pasáramos bien y aprovecháramos al máximo el día. Lleven dinero para la propina y si quieren algo para picar o beber por el camino. ¡Sin duda, lo repetiría!"
+                },
+                {
+                    ProfilePicture: ProfilePicture6,
+                    PersonName: "Mr S",
+                    PublicationDate: "15 de abril de 2025",
+                    MainDescription: "¡Una experiencia increíble en quad!",
+                    Opinion: "¡Un viaje increíble! Joel y Jeffrey fueron unos guías increíbles. Mantuvieron el ritmo para que pudiéramos disfrutar del viaje. Todas las paradas fueron divertidas: la playa, una cueva y un lugar para probar café y chocolate locales. Todo estaba buenísimo. Compramos canela y chocolate. El precio fue razonable."
+                },
+                {
+                    ProfilePicture: ProfilePicture7,
+                    PersonName: "Idania R",
+                    PublicationDate: "14 de abril de 2025",
+                    MainDescription: "4x4 en Punta Cana.",
+                    Opinion: "¡Julio es un guía excelente! Cuando venga, pregunta por él. El paseo por la playa es genial y el agua está a la temperatura perfecta."
+                },
+                {
+                    ProfilePicture: ProfilePicture8,
+                    PersonName: "Amelia L",
+                    PublicationDate: "12 de abril de 2025",
+                    MainDescription: "Las mejores vacaciones.",
+                    Opinion: "Julio fue el mejor guía turístico, la mejor experiencia en la playa, ¡la cueva era increíble! Los vehículos todo terreno fueron muy divertidos. ¡Definitivamente regresaría otra vez!"
+                },
+                {
+                    ProfilePicture: ProfilePicture9,
+                    PersonName: "Nea A",
+                    PublicationDate: "12 de abril de 2025",
+                    MainDescription: "¡INCREÍBLE!",
+                    Opinion: "¡Julio fue el mejor guía turístico! Muy divertido y atento. Sin duda volvería. 10/10. La playa era preciosa."
+                },
+                {
+                    ProfilePicture: ProfilePicture10,
+                    PersonName: "Ibrahim M",
+                    PublicationDate: "11 de abril de 2025",
+                    MainDescription: "El tour en cuatrimoto",
+                    Opinion: "de Julio fue genial, lo pasamos genial. Muy amable, muy simpático y siempre estaba ahí cuando lo necesitabas. Fue genial, de verdad."
+                },
+
+            ]
         }
+
     },
     //English Translate
     en:{
@@ -175,66 +263,79 @@ export const Language={
                 RatingBased: "Based on",
                 RatingCount: "702 reviews"
             },
+            TextView: {
+                ReadMore: "Read More",
+                ReadLess: "Read Less"
+            },
             ReviewsCards:[
                 {
                     ProfilePicture: ProfilePicture1,
                     PersonName: "Dominic S",
                     PublicationDate: "2025-05-07",
-                    Opinion: "Wonderful Trail and adventure Amazing adventure and lead by an amazing tour guide Julio Big up every-time thanks for making this trip to DR special bless up"
+                    MainDescription: "Wonderful Trail and adventure",
+                    Opinion: "Amazing adventure and lead by an amazing tour guide Julio Big up every-time thanks for making this trip to DR special bless up"
                 },
                 {
                     ProfilePicture: ProfilePicture2,
                     PersonName: "Rochelle P",
                     PublicationDate: "2025-05-07",
-                    Opinion: "10/10 I’m ur tour guide, Julio was amazing and patient Great activity for my adventurous partner birthday. Would recommend."
+                    MainDescription: "10/10",
+                    Opinion: "I’m ur tour guide, Julio was amazing and patient Great activity for my adventurous partner birthday. Would recommend."
                 },
                 {
                     ProfilePicture: ProfilePicture3,
                     PersonName: "Jovon B",
                     PublicationDate: "2025-05-07",
-                    Opinion: "It was an amazing experience Julio was an amazing guide very helpful and will recommend to use a guide. Helped me especially when i wiped out cane back quickly and got me back on the road"
+                    MainDescription: "It was an amazing experience",
+                    Opinion: "Julio was an amazing guide very helpful and will recommend to use a guide. Helped me especially when i wiped out cane back quickly and got me back on the road"
                 },
                 {
                     ProfilePicture: ProfilePicture4,
                     PersonName: "Harrison S",
                     PublicationDate: "2025-05-07",
-                    Opinion: "Couples trip Julio was very fun. Made sure we were safe me and my wife had a blast. The atvs are a little hard to control. Make sure you come prepared overall great experience"
+                    MainDescription: "Couples trip",
+                    Opinion: "Julio was very fun. Made sure we were safe me and my wife had a blast. The atvs are a little hard to control. Make sure you come prepared overall great experience"
                 },
                 {
                     ProfilePicture: ProfilePicture5,
                     PersonName: "Gamecocks123",
                     PublicationDate: "2025-05-06",
-                    Opinion: "WORTH EVERY PENNY Great time!! We opted for the 4 wheelers and had a blast..couldn’t have asked for a better guide. German went above and beyond to make sure we had a good time and got the most out of the day..take cash to tip and if you want a snack/ beverage along the way. Definitely would do it again!"
+                    MainDescription: "WORTH EVERY PENNY",
+                    Opinion: "Great time!! We opted for the 4 wheelers and had a blast..couldn’t have asked for a better guide. German went above and beyond to make sure we had a good time and got the most out of the day..take cash to tip and if you want a snack/ beverage along the way. Definitely would do it again!"
                 },
                 {
                     ProfilePicture: ProfilePicture6,
                     PersonName: "Mr S",
                     PublicationDate: "2025-04-15",
-                    Opinion: "Awesome ATV experience Awesome trip! Joel & Jeffrey was an amazing guide. Kept the pace so we could enjoy the trip. All the stops were fun going to the beach, a cave and a spot to try local coffee, and chocolate. Everything tasted great. Bought some cinnamon and chocolate. Price was reasonable."
+                    MainDescription: "Awesome ATV experience",
+                    Opinion: "Joel & Jeffrey was an amazing guide. Kept the pace so we could enjoy the trip. All the stops were fun going to the beach, a cave and a spot to try local coffee, and chocolate. Everything tasted great. Bought some cinnamon and chocolate. Price was reasonable."
                 },
                 {
                     ProfilePicture: ProfilePicture7,
                     PersonName: "Idania R",
                     PublicationDate: "2025-04-14",
-                    Opinion: "4x4 in Punta Cana Julio an excellent guide! When he comes, ask about him. The beach walk very good, the water in the perfect temperature!"
+                    MainDescription: "4x4 in Punta Cana",
+                    Opinion: "Julio an excellent guide! When he comes, ask about him. The beach walk very good, the water in the perfect temperature!"
                 },
                 {
                     ProfilePicture: ProfilePicture8,
                     PersonName: "Amelia L",
                     PublicationDate: "2025-04-12",
-                    Opinion: "best vacation julio was the best tour guide, best beach experience, cave was amazing!! atv were so fun. would definitely come back again!!!"
+                    MainDescription: "best vacation",
+                    Opinion: "julio was the best tour guide, best beach experience, cave was amazing!! atv were so fun. would definitely come back again!!!"
                 },
                 {
                     ProfilePicture: ProfilePicture9,
                     PersonName: "Nea A",
-                    PublicationDate: "2025-04-12",
-                    Opinion: "AMAZING! Julio was the best tour guide ever!!!! So funny and accommodating. Would definitely come back. 10/10. Beach was beautiful."
+                    MainDescription: "AMAZING!",
+                    Opinion: "Julio was the best tour guide ever!!!! So funny and accommodating. Would definitely come back. 10/10. Beach was beautiful."
                 },
                 {
                     ProfilePicture: ProfilePicture10,
                     PersonName: "Ibrahim M",
                     PublicationDate: "2025-04-11",
-                    Opinion: "ATV Tour Julio was really great, had an amazing timeeeeeee. Very friendly, very nice and literally there when you need him.He was great really"
+                    MainDescription: "ATV Tour",
+                    Opinion: "Julio was really great, had an amazing timeeeeeee. Very friendly, very nice and literally there when you need him.He was great really"
                 },
 
             ]

@@ -69,13 +69,14 @@ function ReviewsSection() {
                                     <img src={Verification} loading="lazy" alt="Verification Button" width={25} height={25} />
                                 </section>
                                 <article>
+                                    <span className="ShortDescription">{values.MainDescription}</span>
                                     <p className="OpinionPerson">
                                         {values.Opinion}
                                     </p>
                                 </article>
                             </div>
                             <aside className="ReadMore" onClick={() => handleToggle(index)}>
-                                <p>{isExpanded ? 'Read Less' : '... Read More'}</p>
+                                <p>{isExpanded ? texts.ReviewsSection.TextView.ReadLess : texts.ReviewsSection.TextView.ReadMore}</p>
                             </aside>
                             </div>  
                         </SwiperSlide>

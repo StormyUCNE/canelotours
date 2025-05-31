@@ -1204,7 +1204,6 @@ body{
 }
 
 /*Reviews Section STYLES*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 .ReviewHeadline{
   line-height: 1;
   max-width: 100%;
@@ -1354,7 +1353,12 @@ body{
   margin-top: 15px;
   margin-bottom: 8px;
 }
+.ShortDescription{
+  margin-bottom: 0%;
+  font-weight: bold;
+}
 .OpinionPerson{
+  margin-top: 0%;
   line-height: 1.4rem;
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
