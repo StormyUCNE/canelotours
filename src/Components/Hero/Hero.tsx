@@ -20,18 +20,18 @@ function Hero() {
           alt="Descripción del hero"
           fetchPriority="high"
           loading="eager"
-          width={700}   
-          height={700}
+          width={600}   
+          height={400}
           decoding="async"
         />
       </picture>
       <div className="HeroContent">
-        <img className="Logo" src={Logo} alt="Hero Logo" decoding="async" width={500} height={500} />
+        <img className="Logo" src={Logo} alt="Hero Logo" fetchPriority="high" decoding="async" width={500} height={500} />
         <p className="Fisttitle">{texts.HeroSection.HeroTitle}</p>
         <p className="Description">{texts.HeroSection.Description}</p>
         <a className="BookingButton" href="#"><button>{texts.HeroSection.ReservationButton}</button></a>
         <p className="Price">{texts.HeroSection.Price}</p>
-        <img className="Payments" src={Paymentmethods} decoding="async" alt="Payment methods" width={1412} height={166}  />
+        <img className="Payments" src={Paymentmethods} decoding="async" fetchPriority="high" alt="Payment methods" width={1412} height={166}  />
       </div>
     </div>
   )
