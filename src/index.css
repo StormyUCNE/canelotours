@@ -63,7 +63,7 @@ body{
 .HeroBackground img{
   width: 100%;
   height: 100%;
-  aspect-ratio: 3/2;
+  aspect-ratio: auto;
   display: block;
   position: absolute;
   top: 0%;
@@ -101,12 +101,12 @@ body{
   font-family: "Baloo Bhai 2", Sans-serif;
   font-size: 65px;
   font-weight: 900;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   line-height: 1;
   width: 800px;
   text-align: center;
   color: #FFFFFF;
-  margin-top: 27px;
+  margin-top: 1.5rem;
 
 }
 .Description{
@@ -120,7 +120,8 @@ body{
   margin-top: -45px;
   margin-bottom: 1%;
 }
-.BookingButton button{
+.BookingButton{
+  font-family: "Raleway", Sans-serif;
   font-size: 22px;
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -132,13 +133,15 @@ body{
   border-width: 3px 3px 3px 3px;
   cursor: pointer;
   transition: background 0.3s ease;
+  text-decoration: none;
 }
-.BookingButton button:hover{
+.BookingButton:hover{
   background-color: #C5A221;
   border-color: #C5A221;
   transition: background 0.3s ease;
   box-shadow: 0px 15px 20px -8px rgba(0, 0, 0, 0.5);
 }
+
 .Price{
   font-size: 22px;
   font-family: "Baloo 2", Sans-serif;
@@ -186,11 +189,8 @@ body{
     max-width: 96%;
     height: auto;
   }
-  .BookingButton{
-    width: 95%;
-  }
-  .BookingButton button{
-    width: 100%;
+  .BookingButton {
+    width: 85%;
     margin: 0%;
     font-size: 15px;
     font-weight: 700;
@@ -201,6 +201,7 @@ body{
     background-color: #315C52;
     border-style: solid;
     border-width: 2px 2px 2px 2px;
+    text-align: center;
   }  
 }
 

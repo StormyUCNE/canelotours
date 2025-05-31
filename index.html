@@ -1,16 +1,31 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <link rel="preload" as="image" href="/src/assets/Imgs/Hero/HeroImgMobile.webp" type="image/webp"/>
-    <link rel="preload" as="image" href="/src/assets/Imgs/Hero/HeroImg.webp" type="image/webp" media="(min-width: 768px)" />
+    <link 
+  rel="preload" 
+  as="image" 
+  href="/src/assets/Imgs/Hero/HeroImgMobile.webp" 
+  imagesrcset="/src/assets/Imgs/Hero/HeroImgMobile.webp 600w, /src/assets/Imgs/Hero/HeroImg.webp 2000w"
+  imagesizes="100vw"
+  type="image/webp"
+/>
     <link rel="preload" as="image" href="/src/assets/Imgs/Hero/HeroLogo.webp" type="image/webp"/>
     <link rel="preload" as="image" href="/src/assets/Imgs/Hero/Paymentmethods.webp" type="image/webp"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Baloo+Bhai+2:wght@800&family=Pacifico&family=Raleway:wght@500&family=Open+Sans:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript>
-      <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Baloo+Bhai+2:wght@800&family=Pacifico&family=Raleway:wght@500&family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
-    </noscript>
+    <link 
+  href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap" 
+  rel="stylesheet"
+  media="print" 
+  onload="this.media='all'"
+/>
+<!-- Carga el resto de forma asíncrona -->
+<link 
+  href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Pacifico&family=Raleway:wght@500&family=Open+Sans:wght@300;500&display=swap" 
+  rel="preload" 
+  as="style" 
+  onload="this.onload=null;this.rel='stylesheet'"
+/>
     <meta charset="UTF-8" />
     <meta name="description" content="Experience thrilling 4x4 ATV and buggy tours in Punta Cana with Canelo Tours. Book now for an unforgettable adventure!">
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
