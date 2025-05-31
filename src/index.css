@@ -57,7 +57,7 @@ body{
 .HeroContainer{
   width: 100%;
   position: relative;
-  height: 100%; 
+  height: 100vh; 
   overflow: hidden;
 }
 .HeroBackground img{
@@ -99,6 +99,7 @@ body{
 
 .Fisttitle{
   font-family: "Baloo Bhai 2", Sans-serif;
+  font-display: swap;
   font-size: 65px;
   font-weight: 900;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -111,6 +112,7 @@ body{
 }
 .Description{
   font-family: "Baloo 2", Sans-serif;
+  font-display: swap;
   font-size: 30px;
   font-weight: 500;
   text-align: center;
@@ -122,6 +124,7 @@ body{
 }
 .BookingButton{
   font-family: "Raleway", Sans-serif;
+  font-display: swap;
   font-size: 22px;
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -145,6 +148,7 @@ body{
 .Price{
   font-size: 22px;
   font-family: "Baloo 2", Sans-serif;
+  font-display: swap;
   font-weight: 500;
   color: #FFFFFF;
   margin-top: 10px;
