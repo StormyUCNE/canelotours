@@ -1,4 +1,5 @@
 import './App.css'
+import './assets/fonts/fonts.css';
 import Hero from './Components/Hero/Hero'
 import { LanguageProvider } from './Components/Language/LanguageContext'
 import LanguageSelector from './Components/LanguageSelector/LanguageSelector'

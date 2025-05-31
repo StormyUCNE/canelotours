@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Baloo 2';
+  src: url('./Baloo_2/Baloo2-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Baloo Bhai 2';
+  src: url('./Baloo_Bhai_2/BalooBhai2-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./Open_Sans/OpenSans-VariableFont_wdth_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('./Pacifico/Pacifico-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('./Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
+}
