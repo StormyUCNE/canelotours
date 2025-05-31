@@ -1,14 +1,19 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <link 
-  rel="preload" 
-  as="image" 
-  href="/src/assets/Imgs/Hero/HeroImgMobile.webp" 
-  imagesrcset="/src/assets/Imgs/Hero/HeroImgMobile.webp 600w, /src/assets/Imgs/Hero/HeroImg.webp 2000w"
-  imagesizes="100vw"
-  type="image/webp"
-/>
+   <link 
+    rel="preload" 
+    as="image" 
+    href="./src/assets/Imgs/Hero/HeroImgMobile.avif"
+    media="(max-width: 767px)"
+  >
+  <!-- Preload para desktop -->
+  <link 
+    rel="preload" 
+    as="image" 
+    href="/src/assets/Imgs/Hero/HeroImg.webp" 
+    media="(min-width: 768px)"
+  >
     <link rel="preload" as="image" href="/src/assets/Imgs/Hero/HeroLogo.webp" type="image/webp"/>
     <link rel="preload" as="image" href="/src/assets/Imgs/Hero/Paymentmethods.webp" type="image/webp"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
