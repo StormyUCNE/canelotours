@@ -7,20 +7,7 @@ function Hero() {
   const {texts} = useLanguage();
   return (
     <div className="HeroContainer">
-      <picture className="HeroBackground">
-        <source
-          srcSet={HeroDesktop}
-          media="(min-width: 768px)"
-          type="image/webp"
-        />
-        <img
-          src={HeroMobile}
-          alt="Descripción del hero"
-          fetchPriority="high"
-          loading="eager"
-          decoding="async"
-        />
-      </picture>
+      
       <div className="HeroContent">
         <img className="Logo" src={Logo} alt="Hero Logo" fetchPriority="high" decoding="async" width={500} height={500} />
         <p className="Fisttitle">{texts.HeroSection.HeroTitle}</p>

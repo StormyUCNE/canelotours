@@ -160,6 +160,12 @@ body{
 
 /*Mobile Responsive*/
 @media screen and (max-width: 767px) {
+  .HeroContainer{
+    height: 10%;
+  }
+  .HeroBackground img{
+    height: 100%;
+  }
   .Logo{
     max-width: 43vw;
     height: auto;
