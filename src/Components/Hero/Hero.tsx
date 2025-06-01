@@ -12,8 +12,6 @@ function Hero() {
           srcSet={HeroDesktop}
           media="(min-width: 768px)"
           type="image/webp"
-          width={2000} 
-          height={1333}
         />
         <img
           src={HeroMobile}
@@ -26,12 +24,12 @@ function Hero() {
         />
       </picture>
       <div className="HeroContent">
-        <img className="Logo" src={Logo} alt="Hero Logo" fetchPriority="high" />
+        <img className="Logo" src={Logo}  alt="Hero Logo" fetchPriority="high" loading="eager" />
         <p className="Fisttitle">{texts.HeroSection.HeroTitle}</p>
         <p className="Description">{texts.HeroSection.Description}</p>
         <a className="BookingButton" href="#">{texts.HeroSection.ReservationButton}</a>
         <p className="Price">{texts.HeroSection.Price}</p>
-        <img className="Payments" src={Paymentmethods} decoding="async" fetchPriority="high" alt="Payment methods" />
+        <img className="Payments" src={Paymentmethods} decoding="async" fetchPriority="high" alt="Payment methods" loading="eager" />
       </div>
     </div>
   )
