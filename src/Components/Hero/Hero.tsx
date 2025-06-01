@@ -1,5 +1,4 @@
-import HeroDesktop from "../../assets/Imgs/Hero/HeroImg.webp"
-import HeroMobile from "../../assets/Imgs/Hero/HeroImgMobile.avif"
+
 import { useLanguage } from "../Language/LanguageContext"
 import Logo from "../../assets/Imgs/Hero/HeroLogo.webp"
 import Paymentmethods from "../../assets/Imgs/Hero/Paymentmethods.webp"
