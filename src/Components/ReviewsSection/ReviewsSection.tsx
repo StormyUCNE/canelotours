@@ -10,7 +10,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 // @ts-ignore
 import 'swiper/css/pagination';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 import { useState } from "react";
 function ReviewsSection() {
@@ -41,7 +41,7 @@ function ReviewsSection() {
                     <img className="ReviewerLogo" src={ReviewerLogo} loading="lazy" alt="Reviewer Logo" width={200}  />
                 </div>
                 <div className="ReviewSlider">
-                    <Swiper className="Swiper" modules={[Navigation, Pagination]} pagination={{clickable: true, el: '.custom-bullet-pagination', bulletClass: 'custom-bullet', bulletActiveClass: 'custom-bullet-active'}} spaceBetween={0} slidesPerView={3} navigation breakpoints={{0: {slidesPerView: 1,}, 829:{slidesPerView:2}, 1125:{slidesPerView:3}}}>
+                    <Swiper className="Swiper" modules={[Navigation, Pagination, Autoplay]} pagination={{clickable: true, el: '.custom-bullet-pagination', bulletClass: 'custom-bullet', bulletActiveClass: 'custom-bullet-active'}} spaceBetween={0} autoplay={{delay: 6000, disableOnInteraction: false, pauseOnMouseEnter: true}} loop={true} slidesPerView={3} navigation breakpoints={{0: {slidesPerView: 1,}, 829:{slidesPerView:2}, 1125:{slidesPerView:3}}}>
                         {texts.ReviewsSection.ReviewsCards.map((values, index) =>{
                         const isExpanded = expandedIndex === index;
                         return (
@@ -59,7 +59,7 @@ function ReviewsSection() {
                                     <img src={ReviewerMiniLogo} alt="ReviewerMiniLogo" loading="lazy" width={25} height={25}  />
                                 </header>
                                 <section className="RatingPerson">
-                                    <div>
+                                    <div className="StarsCalification">
                                         <img src={StarsImgs} loading="lazy" alt="Stars" width={17} height={17} />
                                         <img src={StarsImgs} loading="lazy" alt="Stars" width={17} height={17} />
                                         <img src={StarsImgs} loading="lazy" alt="Stars" width={17} height={17} />

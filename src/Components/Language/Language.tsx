@@ -11,6 +11,7 @@ import ProfilePicture10 from "../../assets/Imgs/ReviewsSection/DominicProfile.we
 export const Language={
     //Spanish Translate
     es:{
+        TitleName: "Los mejores tours en ATV y Buggy en Punta Cana en 2025 con Canelo Tours",
         HeroSection:{
             HeroTitle: "Tours en ATV y Buggy en Punta Cana",
             Description: "Descubre los tours en ATV y Buggy en Punta Cana. Explora una emocionante ruta todoterreno: viaja solo en un ATV o en grupo en un buggy.",
@@ -173,11 +174,20 @@ export const Language={
                 },
 
             ]
+        },
+        ReservationSection:{
+            Title: "Selecciona tu viaje",
+            Subtitle: "Reserva tu tour en ATV y Buggy en Punta Cana",
+            BookingCallToAction: "Reserva tu lugar hoy desde solo",
+            BookingPriceInfo: "$35 USD por persona.",
+            BookingCancellationPolicy: " Cancelación gratuita hasta 24 horas antes.",
+            BookButton: "Reserva tu ATV o Buggy ahora"
         }
 
     },
     //English Translate
     en:{
+        TitleName: "The best ATV and Buggy tours in Punta Cana in 2025 with Canelo Tours",
         HeroSection: {
         HeroTitle: "ATV and Buggy Tours in Punta Cana",
         Description: "Discover the top-rated ATV and Buggy Tours in Punta Cana. Explore one thrilling off-road route—ride solo on an ATV or team up in a buggy.",
@@ -340,10 +350,19 @@ export const Language={
                 },
 
             ]
+        },
+        ReservationSection:{
+            Title: "Select Your Ride",
+            Subtitle: "Book Your ATV and Buggy Tour in Punta Cana",
+            BookingCallToAction: "Secure your spot today from just",
+            BookingPriceInfo: "$35 USD per people.",
+            BookingCancellationPolicy: " Free cancellation up to 24h before",
+            BookButton: "Book Your ATV or Buggy Now"
         }
     },
     //French Translate
     fr:{
+        TitleName: "Les meilleures excursions en ATV et en buggy à Punta Cana en 2025 avec Canelo Tours",
         HeroSection: {
         HeroTitle: "Excursions en VTT et en buggy à Punta Cana",
         Description: "Découvrez les excursions en quad et en buggy les plus prisées de Punta Cana. Explorez un itinéraire hors route palpitant : roulez seul en quad ou à deux en buggy.",
@@ -506,10 +525,20 @@ export const Language={
                 },
 
             ]
+        },
+        ReservationSection:{
+            Title: "Sélectionnez votre trajet",
+            Subtitle: "Réservez votre excursion en VTT et en buggy à Punta Cana",
+            BookingCallToAction: "Réservez votre place dès aujourd'hui à partir de",
+            BookingPriceInfo: "35 $ US par personne.",
+            BookingCancellationPolicy: " Annulation gratuite jusqu'à 24 h avant.",
+            BookButton: "Réservez votre VTT ou votre buggy maintenant"
         }
+
     },
     //German Translate
     de:{
+        TitleName: "Die besten ATV- und Buggy-Touren in Punta Cana im Jahr 2025 mit Canelo Tours",
         HeroSection: {
         HeroTitle: "ATV- und Buggy-Touren in Punta Cana",
         Description: "Entdecken Sie die beliebtesten ATV- und Buggy-Touren in Punta Cana. Erkunden Sie eine aufregende Offroad-Route – alleine auf dem ATV oder gemeinsam im Buggy.",
@@ -672,10 +701,19 @@ export const Language={
                 },
 
             ]
+        },
+        ReservationSection:{
+            Title: "Wählen Sie Ihr Fahrzeug",
+            Subtitle: "Buchen Sie Ihre ATV- und Buggy-Tour in Punta Cana",
+            BookingCallToAction: "Sichern Sie sich noch heute Ihren Platz ab nur",
+            BookingPriceInfo: "35 USD pro Person.",
+            BookingCancellationPolicy: " Kostenlose Stornierung bis 24 Stunden vorher.",
+            BookButton: "Buchen Sie jetzt Ihr ATV oder Ihren Buggy"
         }
     },
     //Italian Translate
     it:{
+        TitleName: "I migliori tour in ATV e Buggy a Punta Cana nel 2025 con Canelo Tours",
         HeroSection: {
         HeroTitle: "Tour in quad e buggy a Punta Cana",
         Description: "Scopri i migliori tour in quad e buggy a Punta Cana. Esplora un emozionante percorso fuoristrada: guida un quad da solo o in coppia su un buggy.",
@@ -838,10 +876,19 @@ export const Language={
                 },
 
             ]
+        },
+        ReservationSection:{
+            Title: "Seleziona la tua corsa",
+            Subtitle: "Prenota il tuo tour in ATV e Buggy a Punta Cana",
+            BookingCallToAction: "Prenota subito il tuo posto a partire da soli",
+            BookingPriceInfo: "35 USD a persona.",
+            BookingCancellationPolicy: " Cancellazione gratuita fino a 24 ore prima.",
+            BookButton: "Prenota subito il tuo quad o buggy"
         }
     },
     //Portuguese Translate
     pt:{
+        TitleName: "Os melhores passeios de ATV e Buggy em Punta Cana em 2025 com Canelo Tours",
         HeroSection: {
         HeroTitle: "Passeios de quadriciclo e buggy em Punta Cana",
         Description: "Descubra os passeios de quadriciclo e buggy mais bem avaliados em Punta Cana. Explore uma emocionante rota off-road — pilote sozinho um quadriciclo ou junte-se a uma equipe em um buggy.",
@@ -1004,10 +1051,19 @@ export const Language={
                 },
 
             ]
+        },
+        ReservationSection:{
+            Title: "Selecione sua viagem",
+            Subtitle: "Reserve seu passeio de quadriciclo e buggy em Punta Cana",
+            BookingCallToAction: "Garanta sua vaga hoje mesmo por apenas",
+            BookingPriceInfo: "US$ 35 por pessoa.",
+            BookingCancellationPolicy: " Cancelamento gratuito até 24h antes.",
+            BookButton: "Reserve seu quadriciclo ou buggy agora"
         }
     },
     //Russian Translate
     ru:{
+        TitleName: "Лучшие туры на квадроциклах и багги в Пунта-Кане в 2025 году с Canelo Tours",
         HeroSection: {
         HeroTitle: "Туры на квадроциклах и багги в Пунта-Кане",
         Description: "Откройте для себя самые рейтинговые туры на квадроциклах и багги в Пунта-Кане. Исследуйте один захватывающий внедорожный маршрут — прокатитесь в одиночку на квадроцикле или в команде на багги.",
@@ -1170,10 +1226,19 @@ export const Language={
                 },
 
             ]
+        },
+        ReservationSection:{
+            Title: "Выберите свою поездку",
+            Subtitle: "Забронируйте тур на квадроциклах и багги в Пунта-Кане",
+            BookingCallToAction: "Забронируйте себе место сегодня всего за",
+            BookingPriceInfo: "35 долларов США с человека.",
+            BookingCancellationPolicy: " Бесплатная отмена за 24 часа.",
+            BookButton: "Забронируйте свой квадроцикл или багги прямо сейчас"
         }
     },
     //Dutch Translate
     nl:{
+        TitleName: "De beste ATV- en Buggy-tours in Punta Cana in 2025 met Canelo Tours",
         HeroSection: {
         HeroTitle: "ATV- en buggytochten in Punta Cana",
         Description: "Ontdek de best beoordeelde ATV- en buggytours in Punta Cana. Verken een spannende offroad route: rijd solo op een ATV of ga samen met een team in een buggy.",
@@ -1336,6 +1401,14 @@ export const Language={
                 },
 
             ]
+        },
+        ReservationSection:{
+            Title: "Selecteer uw rit",
+            Subtitle: "Boek uw ATV- en buggytour in Punta Cana",
+            BookingCallToAction: "Reserveer vandaag nog uw plek vanaf slechts",
+            BookingPriceInfo: "$ 35 USD per persoon.",
+            BookingCancellationPolicy: " Gratis annuleren tot 24 uur van tevoren.",
+            BookButton: "Boek nu uw ATV of buggy"
         }
     }
 }
