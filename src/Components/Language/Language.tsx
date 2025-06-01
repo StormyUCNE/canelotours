@@ -13,7 +13,7 @@ export const Language={
     es:{
         HeroSection:{
             HeroTitle: "Tours en ATV y Buggy en Punta Cana",
-            Description: "Descubre los tours en ATV y Buggy mejor valorados de Punta Cana. Explora una emocionante ruta todoterreno: viaja solo en un ATV o en grupo en un buggy.",
+            Description: "Descubre los tours en ATV y Buggy en Punta Cana. Explora una emocionante ruta todoterreno: viaja solo en un ATV o en grupo en un buggy.",
             ReservationButton: "Reserva tu ATV o Buggy ahora",
             Price: "Desde $35 USD por persona"
         },

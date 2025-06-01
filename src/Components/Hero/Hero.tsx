@@ -24,12 +24,12 @@ function Hero() {
         />
       </picture>
       <div className="HeroContent">
-        <img className="Logo" src={Logo}  alt="Hero Logo" fetchPriority="high" loading="eager" />
+        <img className="Logo" src={Logo}  alt="Hero Logo" fetchPriority="high" loading="eager" width={885} height={554} />
         <p className="Fisttitle">{texts.HeroSection.HeroTitle}</p>
         <p className="Description">{texts.HeroSection.Description}</p>
         <a className="BookingButton" href="#">{texts.HeroSection.ReservationButton}</a>
         <p className="Price">{texts.HeroSection.Price}</p>
-        <img className="Payments" src={Paymentmethods} decoding="async" fetchPriority="high" alt="Payment methods" loading="eager" />
+        <img className="Payments" src={Paymentmethods} decoding="async" fetchPriority="high" alt="Payment methods" loading="eager" width={1412} height={166} />
       </div>
     </div>
   )
