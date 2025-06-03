@@ -29,7 +29,7 @@ function Hero() {
         <p className="Description">{texts.HeroSection.Description}</p>
         <a className="BookingButton" href="#">{texts.HeroSection.ReservationButton}</a>
         <p className="Price">{texts.HeroSection.Price}</p>
-        <img className="Payments" src={Paymentmethods} decoding="async" fetchPriority="high" alt="Payment methods" loading="eager" width={1412} height={166} />
+        <img className="Payments" src={Paymentmethods} decoding="async" loading="lazy" alt="Payment methods" width={1412} height={166} />
       </div>
     </div>
   )

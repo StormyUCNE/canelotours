@@ -143,9 +143,8 @@ body{
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .HeroContainer{
-    min-height: 60vh;
-    padding-top: 50px;
     align-items: baseline;
+    min-height: auto;
   }
   .Logo{
     max-width: 180px;
