@@ -184,9 +184,166 @@ export const Language={
             BookButton: "Reserva tu ATV o Buggy ahora"
         },
         MainInformationSection:{
-            MainInformationTitle: "Información importante",
-            MainInformationSubtitle: "Antes de reservar su tour en ATV y Buggy en Punta Cana",
-            MainInformationDescription: "Por favor, revise la siguiente información cuidadosamente antes de reservar su aventura en ATV y Buggy. Esta información incluye lo que incluye, lo que no incluye, las instrucciones de recogida, la política de cancelación, las restricciones de edad y otras pautas esenciales para garantizar una experiencia tranquila y segura.",
+            MainInformationTitle: "Important Information",
+            MainInformationSubtitle: "Before Booking Your ATV and Buggy Tour in Punta Cana",
+            MainInformationDescription: "Please review the following details carefully before reserving your ATV and Buggy adventure. This information includes what's included, what's not, pickup instructions, cancellation policy, age restrictions, and other essential guidelines to ensure a smooth and safe experience.",
+
+            Informations:{
+                Information1:{
+                    Info: "Whats Included",
+                    Answers:[
+                        {
+                            Answer: "Round-trip transportation"
+                        },
+                        {
+                            Answer: "Chocolate and Coffee Tasting, Mamajuana Rum and green tea"
+                        },
+                        {
+                            Answer: "Crystal clear water cenote"
+                        },
+                        {
+                            Answer: "Beautiful Macao Beach"
+                        },
+                        {
+                            Answer: "Entry/Admission – Macao Beach"
+                        },
+                        {
+                            Answer: "Entry/Admission – Dominican Residence"
+                        },
+                    ]
+                },
+                Information2:{
+                    Info: "What’s Not Included",
+                    Answers:[
+                        {
+                            Answer: "Towels"
+                        },
+                        {
+                            Answer: "Old clothes, sunscreen, sunglasses, bandanas, bathing suits"
+                        },
+                        {
+                            Answer: "Professional pictures"
+                        },
+                        {
+                            Answer: "Gratuities for the crew and drivers"
+                        },
+                    ]
+                },
+                Information3:{
+                    Info: "Free Cancellation Policy",
+                    Answers:[
+                        {
+                            Answer: "You can cancel up to 24 hours in advance for a full refund"
+                        },
+                        {
+                            Answer: "If you cancel less than 24 hours before the experience’s start time, no refund will be issued"
+                        },
+                        {
+                            Answer: "No changes less than 24 hours before start time will be accepted"
+                        },
+                        {
+                            Answer: "Times are based on local time"
+                        },
+                    ]
+                },
+                Information4:{
+                    Info: "Pickup Details",
+                    Answers:[
+                        {
+                            Answer: "Pickup offered from Bávaro, Punta Cana (we’ll confirm by email)"
+                        },
+                        {
+                            Answer: "We pick up clients at the hotel lobby or designated meeting point"
+                        },
+                        {
+                            Answer: "Pickup available from 8:00 AM to 12:00 PM and 3:00 PM — these are pickup windows, not exact times"
+                        },
+                        {
+                            Answer: "If staying at an Airbnb, we can arrange a nearby meeting point"
+                        },
+                        {
+                            Answer: "Pickup details are confirmed within 24 hours of booking"
+                        }
+                    ]
+                },
+                Information5:{
+                    Info: "Itinerary",
+                    Answers:[
+                        {
+                            Stop: "Stop 1: Pickup at Hotel or Meeting Point",
+                            Answer: "You’ll be picked up at your hotel in Punta Cana or designated meeting point. Transportation is included in the total experience. Once at the 4×4 ATV & Buggy Ranch, you’ll receive a brief health and safety instruction from your guide before the adventure begins."
+                        },
+                        {
+                            Stop: "Stop 2: Typical Dominican House (30 min)",
+                            Answer: "Start your ATV or Buggy tour riding through tropical landscapes until you reach a traditional Dominican house. Here you’ll taste local chocolate, coffee, green tea, mamajuana, cigars, and handmade tobacco."
+                        },
+                        {
+                            Stop: "Stop 3: Natural Cave Experience (40 min)",
+                            Answer: "Discover one of Punta Cana’s natural treasures. Park your 4×4 ATV or Buggy and dive into a beautiful cave cenote with crystal-clear water. It’s the perfect spot to cool off and take unique photos."
+                        },
+                        {
+                            Stop: "Stop 4: Macao Beach (40 min)",
+                            Answer: "Ride along the scenic trails to Playa Macao — one of the top beaches in Punta Cana. Enjoy free time to walk, swim, shop local, or grab a snack by the water."
+                        },
+                        {
+                            Stop: "Stop 5: Rancho Arrival – Souvenirs & Cooldown",
+                            Answer: "Return to the base after your Punta Cana ATV or Buggy adventure. You’ll have the opportunity to buy souvenirs and refresh while you wait for your ride back to the hotel."
+                        }
+                    ]
+                },
+                Information6:{
+                    Info: "Please Note",
+                    Answers:[
+                        {
+                            Answer: "Minimum driving age is 18 years"
+                        },
+                        {
+                            Answer: "Minimum age to attend is 8 years"
+                        },
+                        {
+                            Answer: "Must be accompanied by an adult until 17 years of age"
+                        },
+                        {
+                            Answer: "Not recommended for people with back or heart problems"
+                        },
+                        {
+                            Answer: "Not recommended for pregnant travelers"
+                        },
+                        {
+                            Answer: "Customers who appear intoxicated may be refused service"
+                        },
+                        {
+                            Answer: "Activity duration includes transportation time (total ~4 hours)"
+                        }
+                    ]
+                },
+                Information7:{
+                    Info: "Additional Information",
+                    Answers:[
+                        {
+                            Answer: "Confirmation is received at time of booking"
+                        },
+                        {
+                            Answer: "Most travelers can participate"
+                        },
+                        {
+                            Answer: "This activity has a max of 150 participants"
+                        },
+                        {
+                            Answer: "No wheelchair or stroller access"
+                        },
+                        {
+                            Answer: "No public transportation nearby"
+                        },
+                        {
+                            Answer: "Infants must sit on laps"
+                        },
+                        {
+                            Answer: "Infant seats unavailable"
+                        }
+                    ]
+                }
+            }
         }
 
     },
@@ -700,6 +857,168 @@ export const Language={
             BookingPriceInfo: "35 $ US par personne.",
             BookingCancellationPolicy: " Annulation gratuite jusqu'à 24 h avant.",
             BookButton: "Réservez votre VTT ou votre buggy maintenant"
+        },
+        MainInformationSection:{
+            MainInformationTitle: "Important Information",
+            MainInformationSubtitle: "Before Booking Your ATV and Buggy Tour in Punta Cana",
+            MainInformationDescription: "Please review the following details carefully before reserving your ATV and Buggy adventure. This information includes what's included, what's not, pickup instructions, cancellation policy, age restrictions, and other essential guidelines to ensure a smooth and safe experience.",
+
+            Informations:{
+                Information1:{
+                    Info: "Whats Included",
+                    Answers:[
+                        {
+                            Answer: "Round-trip transportation"
+                        },
+                        {
+                            Answer: "Chocolate and Coffee Tasting, Mamajuana Rum and green tea"
+                        },
+                        {
+                            Answer: "Crystal clear water cenote"
+                        },
+                        {
+                            Answer: "Beautiful Macao Beach"
+                        },
+                        {
+                            Answer: "Entry/Admission – Macao Beach"
+                        },
+                        {
+                            Answer: "Entry/Admission – Dominican Residence"
+                        },
+                    ]
+                },
+                Information2:{
+                    Info: "What’s Not Included",
+                    Answers:[
+                        {
+                            Answer: "Towels"
+                        },
+                        {
+                            Answer: "Old clothes, sunscreen, sunglasses, bandanas, bathing suits"
+                        },
+                        {
+                            Answer: "Professional pictures"
+                        },
+                        {
+                            Answer: "Gratuities for the crew and drivers"
+                        },
+                    ]
+                },
+                Information3:{
+                    Info: "Free Cancellation Policy",
+                    Answers:[
+                        {
+                            Answer: "You can cancel up to 24 hours in advance for a full refund"
+                        },
+                        {
+                            Answer: "If you cancel less than 24 hours before the experience’s start time, no refund will be issued"
+                        },
+                        {
+                            Answer: "No changes less than 24 hours before start time will be accepted"
+                        },
+                        {
+                            Answer: "Times are based on local time"
+                        },
+                    ]
+                },
+                Information4:{
+                    Info: "Pickup Details",
+                    Answers:[
+                        {
+                            Answer: "Pickup offered from Bávaro, Punta Cana (we’ll confirm by email)"
+                        },
+                        {
+                            Answer: "We pick up clients at the hotel lobby or designated meeting point"
+                        },
+                        {
+                            Answer: "Pickup available from 8:00 AM to 12:00 PM and 3:00 PM — these are pickup windows, not exact times"
+                        },
+                        {
+                            Answer: "If staying at an Airbnb, we can arrange a nearby meeting point"
+                        },
+                        {
+                            Answer: "Pickup details are confirmed within 24 hours of booking"
+                        }
+                    ]
+                },
+                Information5:{
+                    Info: "Itinerary",
+                    Answers:[
+                        {
+                            Stop: "Stop 1: Pickup at Hotel or Meeting Point",
+                            Answer: "You’ll be picked up at your hotel in Punta Cana or designated meeting point. Transportation is included in the total experience. Once at the 4×4 ATV & Buggy Ranch, you’ll receive a brief health and safety instruction from your guide before the adventure begins."
+                        },
+                        {
+                            Stop: "Stop 2: Typical Dominican House (30 min)",
+                            Answer: "Start your ATV or Buggy tour riding through tropical landscapes until you reach a traditional Dominican house. Here you’ll taste local chocolate, coffee, green tea, mamajuana, cigars, and handmade tobacco."
+                        },
+                        {
+                            Stop: "Stop 3: Natural Cave Experience (40 min)",
+                            Answer: "Discover one of Punta Cana’s natural treasures. Park your 4×4 ATV or Buggy and dive into a beautiful cave cenote with crystal-clear water. It’s the perfect spot to cool off and take unique photos."
+                        },
+                        {
+                            Stop: "Stop 4: Macao Beach (40 min)",
+                            Answer: "Ride along the scenic trails to Playa Macao — one of the top beaches in Punta Cana. Enjoy free time to walk, swim, shop local, or grab a snack by the water."
+                        },
+                        {
+                            Stop: "Stop 5: Rancho Arrival – Souvenirs & Cooldown",
+                            Answer: "Return to the base after your Punta Cana ATV or Buggy adventure. You’ll have the opportunity to buy souvenirs and refresh while you wait for your ride back to the hotel."
+                        }
+                    ]
+                },
+                Information6:{
+                    Info: "Please Note",
+                    Answers:[
+                        {
+                            Answer: "Minimum driving age is 18 years"
+                        },
+                        {
+                            Answer: "Minimum age to attend is 8 years"
+                        },
+                        {
+                            Answer: "Must be accompanied by an adult until 17 years of age"
+                        },
+                        {
+                            Answer: "Not recommended for people with back or heart problems"
+                        },
+                        {
+                            Answer: "Not recommended for pregnant travelers"
+                        },
+                        {
+                            Answer: "Customers who appear intoxicated may be refused service"
+                        },
+                        {
+                            Answer: "Activity duration includes transportation time (total ~4 hours)"
+                        }
+                    ]
+                },
+                Information7:{
+                    Info: "Additional Information",
+                    Answers:[
+                        {
+                            Answer: "Confirmation is received at time of booking"
+                        },
+                        {
+                            Answer: "Most travelers can participate"
+                        },
+                        {
+                            Answer: "This activity has a max of 150 participants"
+                        },
+                        {
+                            Answer: "No wheelchair or stroller access"
+                        },
+                        {
+                            Answer: "No public transportation nearby"
+                        },
+                        {
+                            Answer: "Infants must sit on laps"
+                        },
+                        {
+                            Answer: "Infant seats unavailable"
+                        }
+                    ]
+                }
+            }
         }
 
     },
@@ -876,6 +1195,168 @@ export const Language={
             BookingPriceInfo: "35 USD pro Person.",
             BookingCancellationPolicy: " Kostenlose Stornierung bis 24 Stunden vorher.",
             BookButton: "Buchen Sie jetzt Ihr ATV oder Ihren Buggy"
+        },
+        MainInformationSection:{
+            MainInformationTitle: "Important Information",
+            MainInformationSubtitle: "Before Booking Your ATV and Buggy Tour in Punta Cana",
+            MainInformationDescription: "Please review the following details carefully before reserving your ATV and Buggy adventure. This information includes what's included, what's not, pickup instructions, cancellation policy, age restrictions, and other essential guidelines to ensure a smooth and safe experience.",
+
+            Informations:{
+                Information1:{
+                    Info: "Whats Included",
+                    Answers:[
+                        {
+                            Answer: "Round-trip transportation"
+                        },
+                        {
+                            Answer: "Chocolate and Coffee Tasting, Mamajuana Rum and green tea"
+                        },
+                        {
+                            Answer: "Crystal clear water cenote"
+                        },
+                        {
+                            Answer: "Beautiful Macao Beach"
+                        },
+                        {
+                            Answer: "Entry/Admission – Macao Beach"
+                        },
+                        {
+                            Answer: "Entry/Admission – Dominican Residence"
+                        },
+                    ]
+                },
+                Information2:{
+                    Info: "What’s Not Included",
+                    Answers:[
+                        {
+                            Answer: "Towels"
+                        },
+                        {
+                            Answer: "Old clothes, sunscreen, sunglasses, bandanas, bathing suits"
+                        },
+                        {
+                            Answer: "Professional pictures"
+                        },
+                        {
+                            Answer: "Gratuities for the crew and drivers"
+                        },
+                    ]
+                },
+                Information3:{
+                    Info: "Free Cancellation Policy",
+                    Answers:[
+                        {
+                            Answer: "You can cancel up to 24 hours in advance for a full refund"
+                        },
+                        {
+                            Answer: "If you cancel less than 24 hours before the experience’s start time, no refund will be issued"
+                        },
+                        {
+                            Answer: "No changes less than 24 hours before start time will be accepted"
+                        },
+                        {
+                            Answer: "Times are based on local time"
+                        },
+                    ]
+                },
+                Information4:{
+                    Info: "Pickup Details",
+                    Answers:[
+                        {
+                            Answer: "Pickup offered from Bávaro, Punta Cana (we’ll confirm by email)"
+                        },
+                        {
+                            Answer: "We pick up clients at the hotel lobby or designated meeting point"
+                        },
+                        {
+                            Answer: "Pickup available from 8:00 AM to 12:00 PM and 3:00 PM — these are pickup windows, not exact times"
+                        },
+                        {
+                            Answer: "If staying at an Airbnb, we can arrange a nearby meeting point"
+                        },
+                        {
+                            Answer: "Pickup details are confirmed within 24 hours of booking"
+                        }
+                    ]
+                },
+                Information5:{
+                    Info: "Itinerary",
+                    Answers:[
+                        {
+                            Stop: "Stop 1: Pickup at Hotel or Meeting Point",
+                            Answer: "You’ll be picked up at your hotel in Punta Cana or designated meeting point. Transportation is included in the total experience. Once at the 4×4 ATV & Buggy Ranch, you’ll receive a brief health and safety instruction from your guide before the adventure begins."
+                        },
+                        {
+                            Stop: "Stop 2: Typical Dominican House (30 min)",
+                            Answer: "Start your ATV or Buggy tour riding through tropical landscapes until you reach a traditional Dominican house. Here you’ll taste local chocolate, coffee, green tea, mamajuana, cigars, and handmade tobacco."
+                        },
+                        {
+                            Stop: "Stop 3: Natural Cave Experience (40 min)",
+                            Answer: "Discover one of Punta Cana’s natural treasures. Park your 4×4 ATV or Buggy and dive into a beautiful cave cenote with crystal-clear water. It’s the perfect spot to cool off and take unique photos."
+                        },
+                        {
+                            Stop: "Stop 4: Macao Beach (40 min)",
+                            Answer: "Ride along the scenic trails to Playa Macao — one of the top beaches in Punta Cana. Enjoy free time to walk, swim, shop local, or grab a snack by the water."
+                        },
+                        {
+                            Stop: "Stop 5: Rancho Arrival – Souvenirs & Cooldown",
+                            Answer: "Return to the base after your Punta Cana ATV or Buggy adventure. You’ll have the opportunity to buy souvenirs and refresh while you wait for your ride back to the hotel."
+                        }
+                    ]
+                },
+                Information6:{
+                    Info: "Please Note",
+                    Answers:[
+                        {
+                            Answer: "Minimum driving age is 18 years"
+                        },
+                        {
+                            Answer: "Minimum age to attend is 8 years"
+                        },
+                        {
+                            Answer: "Must be accompanied by an adult until 17 years of age"
+                        },
+                        {
+                            Answer: "Not recommended for people with back or heart problems"
+                        },
+                        {
+                            Answer: "Not recommended for pregnant travelers"
+                        },
+                        {
+                            Answer: "Customers who appear intoxicated may be refused service"
+                        },
+                        {
+                            Answer: "Activity duration includes transportation time (total ~4 hours)"
+                        }
+                    ]
+                },
+                Information7:{
+                    Info: "Additional Information",
+                    Answers:[
+                        {
+                            Answer: "Confirmation is received at time of booking"
+                        },
+                        {
+                            Answer: "Most travelers can participate"
+                        },
+                        {
+                            Answer: "This activity has a max of 150 participants"
+                        },
+                        {
+                            Answer: "No wheelchair or stroller access"
+                        },
+                        {
+                            Answer: "No public transportation nearby"
+                        },
+                        {
+                            Answer: "Infants must sit on laps"
+                        },
+                        {
+                            Answer: "Infant seats unavailable"
+                        }
+                    ]
+                }
+            }
         }
     },
     //Italian Translate
@@ -1051,6 +1532,168 @@ export const Language={
             BookingPriceInfo: "35 USD a persona.",
             BookingCancellationPolicy: " Cancellazione gratuita fino a 24 ore prima.",
             BookButton: "Prenota subito il tuo quad o buggy"
+        },
+        MainInformationSection:{
+            MainInformationTitle: "Important Information",
+            MainInformationSubtitle: "Before Booking Your ATV and Buggy Tour in Punta Cana",
+            MainInformationDescription: "Please review the following details carefully before reserving your ATV and Buggy adventure. This information includes what's included, what's not, pickup instructions, cancellation policy, age restrictions, and other essential guidelines to ensure a smooth and safe experience.",
+
+            Informations:{
+                Information1:{
+                    Info: "Whats Included",
+                    Answers:[
+                        {
+                            Answer: "Round-trip transportation"
+                        },
+                        {
+                            Answer: "Chocolate and Coffee Tasting, Mamajuana Rum and green tea"
+                        },
+                        {
+                            Answer: "Crystal clear water cenote"
+                        },
+                        {
+                            Answer: "Beautiful Macao Beach"
+                        },
+                        {
+                            Answer: "Entry/Admission – Macao Beach"
+                        },
+                        {
+                            Answer: "Entry/Admission – Dominican Residence"
+                        },
+                    ]
+                },
+                Information2:{
+                    Info: "What’s Not Included",
+                    Answers:[
+                        {
+                            Answer: "Towels"
+                        },
+                        {
+                            Answer: "Old clothes, sunscreen, sunglasses, bandanas, bathing suits"
+                        },
+                        {
+                            Answer: "Professional pictures"
+                        },
+                        {
+                            Answer: "Gratuities for the crew and drivers"
+                        },
+                    ]
+                },
+                Information3:{
+                    Info: "Free Cancellation Policy",
+                    Answers:[
+                        {
+                            Answer: "You can cancel up to 24 hours in advance for a full refund"
+                        },
+                        {
+                            Answer: "If you cancel less than 24 hours before the experience’s start time, no refund will be issued"
+                        },
+                        {
+                            Answer: "No changes less than 24 hours before start time will be accepted"
+                        },
+                        {
+                            Answer: "Times are based on local time"
+                        },
+                    ]
+                },
+                Information4:{
+                    Info: "Pickup Details",
+                    Answers:[
+                        {
+                            Answer: "Pickup offered from Bávaro, Punta Cana (we’ll confirm by email)"
+                        },
+                        {
+                            Answer: "We pick up clients at the hotel lobby or designated meeting point"
+                        },
+                        {
+                            Answer: "Pickup available from 8:00 AM to 12:00 PM and 3:00 PM — these are pickup windows, not exact times"
+                        },
+                        {
+                            Answer: "If staying at an Airbnb, we can arrange a nearby meeting point"
+                        },
+                        {
+                            Answer: "Pickup details are confirmed within 24 hours of booking"
+                        }
+                    ]
+                },
+                Information5:{
+                    Info: "Itinerary",
+                    Answers:[
+                        {
+                            Stop: "Stop 1: Pickup at Hotel or Meeting Point",
+                            Answer: "You’ll be picked up at your hotel in Punta Cana or designated meeting point. Transportation is included in the total experience. Once at the 4×4 ATV & Buggy Ranch, you’ll receive a brief health and safety instruction from your guide before the adventure begins."
+                        },
+                        {
+                            Stop: "Stop 2: Typical Dominican House (30 min)",
+                            Answer: "Start your ATV or Buggy tour riding through tropical landscapes until you reach a traditional Dominican house. Here you’ll taste local chocolate, coffee, green tea, mamajuana, cigars, and handmade tobacco."
+                        },
+                        {
+                            Stop: "Stop 3: Natural Cave Experience (40 min)",
+                            Answer: "Discover one of Punta Cana’s natural treasures. Park your 4×4 ATV or Buggy and dive into a beautiful cave cenote with crystal-clear water. It’s the perfect spot to cool off and take unique photos."
+                        },
+                        {
+                            Stop: "Stop 4: Macao Beach (40 min)",
+                            Answer: "Ride along the scenic trails to Playa Macao — one of the top beaches in Punta Cana. Enjoy free time to walk, swim, shop local, or grab a snack by the water."
+                        },
+                        {
+                            Stop: "Stop 5: Rancho Arrival – Souvenirs & Cooldown",
+                            Answer: "Return to the base after your Punta Cana ATV or Buggy adventure. You’ll have the opportunity to buy souvenirs and refresh while you wait for your ride back to the hotel."
+                        }
+                    ]
+                },
+                Information6:{
+                    Info: "Please Note",
+                    Answers:[
+                        {
+                            Answer: "Minimum driving age is 18 years"
+                        },
+                        {
+                            Answer: "Minimum age to attend is 8 years"
+                        },
+                        {
+                            Answer: "Must be accompanied by an adult until 17 years of age"
+                        },
+                        {
+                            Answer: "Not recommended for people with back or heart problems"
+                        },
+                        {
+                            Answer: "Not recommended for pregnant travelers"
+                        },
+                        {
+                            Answer: "Customers who appear intoxicated may be refused service"
+                        },
+                        {
+                            Answer: "Activity duration includes transportation time (total ~4 hours)"
+                        }
+                    ]
+                },
+                Information7:{
+                    Info: "Additional Information",
+                    Answers:[
+                        {
+                            Answer: "Confirmation is received at time of booking"
+                        },
+                        {
+                            Answer: "Most travelers can participate"
+                        },
+                        {
+                            Answer: "This activity has a max of 150 participants"
+                        },
+                        {
+                            Answer: "No wheelchair or stroller access"
+                        },
+                        {
+                            Answer: "No public transportation nearby"
+                        },
+                        {
+                            Answer: "Infants must sit on laps"
+                        },
+                        {
+                            Answer: "Infant seats unavailable"
+                        }
+                    ]
+                }
+            }
         }
     },
     //Portuguese Translate
@@ -1226,6 +1869,168 @@ export const Language={
             BookingPriceInfo: "US$ 35 por pessoa.",
             BookingCancellationPolicy: " Cancelamento gratuito até 24h antes.",
             BookButton: "Reserve seu quadriciclo ou buggy agora"
+        },
+        MainInformationSection:{
+            MainInformationTitle: "Important Information",
+            MainInformationSubtitle: "Before Booking Your ATV and Buggy Tour in Punta Cana",
+            MainInformationDescription: "Please review the following details carefully before reserving your ATV and Buggy adventure. This information includes what's included, what's not, pickup instructions, cancellation policy, age restrictions, and other essential guidelines to ensure a smooth and safe experience.",
+
+            Informations:{
+                Information1:{
+                    Info: "Whats Included",
+                    Answers:[
+                        {
+                            Answer: "Round-trip transportation"
+                        },
+                        {
+                            Answer: "Chocolate and Coffee Tasting, Mamajuana Rum and green tea"
+                        },
+                        {
+                            Answer: "Crystal clear water cenote"
+                        },
+                        {
+                            Answer: "Beautiful Macao Beach"
+                        },
+                        {
+                            Answer: "Entry/Admission – Macao Beach"
+                        },
+                        {
+                            Answer: "Entry/Admission – Dominican Residence"
+                        },
+                    ]
+                },
+                Information2:{
+                    Info: "What’s Not Included",
+                    Answers:[
+                        {
+                            Answer: "Towels"
+                        },
+                        {
+                            Answer: "Old clothes, sunscreen, sunglasses, bandanas, bathing suits"
+                        },
+                        {
+                            Answer: "Professional pictures"
+                        },
+                        {
+                            Answer: "Gratuities for the crew and drivers"
+                        },
+                    ]
+                },
+                Information3:{
+                    Info: "Free Cancellation Policy",
+                    Answers:[
+                        {
+                            Answer: "You can cancel up to 24 hours in advance for a full refund"
+                        },
+                        {
+                            Answer: "If you cancel less than 24 hours before the experience’s start time, no refund will be issued"
+                        },
+                        {
+                            Answer: "No changes less than 24 hours before start time will be accepted"
+                        },
+                        {
+                            Answer: "Times are based on local time"
+                        },
+                    ]
+                },
+                Information4:{
+                    Info: "Pickup Details",
+                    Answers:[
+                        {
+                            Answer: "Pickup offered from Bávaro, Punta Cana (we’ll confirm by email)"
+                        },
+                        {
+                            Answer: "We pick up clients at the hotel lobby or designated meeting point"
+                        },
+                        {
+                            Answer: "Pickup available from 8:00 AM to 12:00 PM and 3:00 PM — these are pickup windows, not exact times"
+                        },
+                        {
+                            Answer: "If staying at an Airbnb, we can arrange a nearby meeting point"
+                        },
+                        {
+                            Answer: "Pickup details are confirmed within 24 hours of booking"
+                        }
+                    ]
+                },
+                Information5:{
+                    Info: "Itinerary",
+                    Answers:[
+                        {
+                            Stop: "Stop 1: Pickup at Hotel or Meeting Point",
+                            Answer: "You’ll be picked up at your hotel in Punta Cana or designated meeting point. Transportation is included in the total experience. Once at the 4×4 ATV & Buggy Ranch, you’ll receive a brief health and safety instruction from your guide before the adventure begins."
+                        },
+                        {
+                            Stop: "Stop 2: Typical Dominican House (30 min)",
+                            Answer: "Start your ATV or Buggy tour riding through tropical landscapes until you reach a traditional Dominican house. Here you’ll taste local chocolate, coffee, green tea, mamajuana, cigars, and handmade tobacco."
+                        },
+                        {
+                            Stop: "Stop 3: Natural Cave Experience (40 min)",
+                            Answer: "Discover one of Punta Cana’s natural treasures. Park your 4×4 ATV or Buggy and dive into a beautiful cave cenote with crystal-clear water. It’s the perfect spot to cool off and take unique photos."
+                        },
+                        {
+                            Stop: "Stop 4: Macao Beach (40 min)",
+                            Answer: "Ride along the scenic trails to Playa Macao — one of the top beaches in Punta Cana. Enjoy free time to walk, swim, shop local, or grab a snack by the water."
+                        },
+                        {
+                            Stop: "Stop 5: Rancho Arrival – Souvenirs & Cooldown",
+                            Answer: "Return to the base after your Punta Cana ATV or Buggy adventure. You’ll have the opportunity to buy souvenirs and refresh while you wait for your ride back to the hotel."
+                        }
+                    ]
+                },
+                Information6:{
+                    Info: "Please Note",
+                    Answers:[
+                        {
+                            Answer: "Minimum driving age is 18 years"
+                        },
+                        {
+                            Answer: "Minimum age to attend is 8 years"
+                        },
+                        {
+                            Answer: "Must be accompanied by an adult until 17 years of age"
+                        },
+                        {
+                            Answer: "Not recommended for people with back or heart problems"
+                        },
+                        {
+                            Answer: "Not recommended for pregnant travelers"
+                        },
+                        {
+                            Answer: "Customers who appear intoxicated may be refused service"
+                        },
+                        {
+                            Answer: "Activity duration includes transportation time (total ~4 hours)"
+                        }
+                    ]
+                },
+                Information7:{
+                    Info: "Additional Information",
+                    Answers:[
+                        {
+                            Answer: "Confirmation is received at time of booking"
+                        },
+                        {
+                            Answer: "Most travelers can participate"
+                        },
+                        {
+                            Answer: "This activity has a max of 150 participants"
+                        },
+                        {
+                            Answer: "No wheelchair or stroller access"
+                        },
+                        {
+                            Answer: "No public transportation nearby"
+                        },
+                        {
+                            Answer: "Infants must sit on laps"
+                        },
+                        {
+                            Answer: "Infant seats unavailable"
+                        }
+                    ]
+                }
+            }
         }
     },
     //Russian Translate
@@ -1401,6 +2206,168 @@ export const Language={
             BookingPriceInfo: "35 долларов США с человека.",
             BookingCancellationPolicy: " Бесплатная отмена за 24 часа.",
             BookButton: "Забронируйте свой квадроцикл или багги прямо сейчас"
+        },
+        MainInformationSection:{
+            MainInformationTitle: "Important Information",
+            MainInformationSubtitle: "Before Booking Your ATV and Buggy Tour in Punta Cana",
+            MainInformationDescription: "Please review the following details carefully before reserving your ATV and Buggy adventure. This information includes what's included, what's not, pickup instructions, cancellation policy, age restrictions, and other essential guidelines to ensure a smooth and safe experience.",
+
+            Informations:{
+                Information1:{
+                    Info: "Whats Included",
+                    Answers:[
+                        {
+                            Answer: "Round-trip transportation"
+                        },
+                        {
+                            Answer: "Chocolate and Coffee Tasting, Mamajuana Rum and green tea"
+                        },
+                        {
+                            Answer: "Crystal clear water cenote"
+                        },
+                        {
+                            Answer: "Beautiful Macao Beach"
+                        },
+                        {
+                            Answer: "Entry/Admission – Macao Beach"
+                        },
+                        {
+                            Answer: "Entry/Admission – Dominican Residence"
+                        },
+                    ]
+                },
+                Information2:{
+                    Info: "What’s Not Included",
+                    Answers:[
+                        {
+                            Answer: "Towels"
+                        },
+                        {
+                            Answer: "Old clothes, sunscreen, sunglasses, bandanas, bathing suits"
+                        },
+                        {
+                            Answer: "Professional pictures"
+                        },
+                        {
+                            Answer: "Gratuities for the crew and drivers"
+                        },
+                    ]
+                },
+                Information3:{
+                    Info: "Free Cancellation Policy",
+                    Answers:[
+                        {
+                            Answer: "You can cancel up to 24 hours in advance for a full refund"
+                        },
+                        {
+                            Answer: "If you cancel less than 24 hours before the experience’s start time, no refund will be issued"
+                        },
+                        {
+                            Answer: "No changes less than 24 hours before start time will be accepted"
+                        },
+                        {
+                            Answer: "Times are based on local time"
+                        },
+                    ]
+                },
+                Information4:{
+                    Info: "Pickup Details",
+                    Answers:[
+                        {
+                            Answer: "Pickup offered from Bávaro, Punta Cana (we’ll confirm by email)"
+                        },
+                        {
+                            Answer: "We pick up clients at the hotel lobby or designated meeting point"
+                        },
+                        {
+                            Answer: "Pickup available from 8:00 AM to 12:00 PM and 3:00 PM — these are pickup windows, not exact times"
+                        },
+                        {
+                            Answer: "If staying at an Airbnb, we can arrange a nearby meeting point"
+                        },
+                        {
+                            Answer: "Pickup details are confirmed within 24 hours of booking"
+                        }
+                    ]
+                },
+                Information5:{
+                    Info: "Itinerary",
+                    Answers:[
+                        {
+                            Stop: "Stop 1: Pickup at Hotel or Meeting Point",
+                            Answer: "You’ll be picked up at your hotel in Punta Cana or designated meeting point. Transportation is included in the total experience. Once at the 4×4 ATV & Buggy Ranch, you’ll receive a brief health and safety instruction from your guide before the adventure begins."
+                        },
+                        {
+                            Stop: "Stop 2: Typical Dominican House (30 min)",
+                            Answer: "Start your ATV or Buggy tour riding through tropical landscapes until you reach a traditional Dominican house. Here you’ll taste local chocolate, coffee, green tea, mamajuana, cigars, and handmade tobacco."
+                        },
+                        {
+                            Stop: "Stop 3: Natural Cave Experience (40 min)",
+                            Answer: "Discover one of Punta Cana’s natural treasures. Park your 4×4 ATV or Buggy and dive into a beautiful cave cenote with crystal-clear water. It’s the perfect spot to cool off and take unique photos."
+                        },
+                        {
+                            Stop: "Stop 4: Macao Beach (40 min)",
+                            Answer: "Ride along the scenic trails to Playa Macao — one of the top beaches in Punta Cana. Enjoy free time to walk, swim, shop local, or grab a snack by the water."
+                        },
+                        {
+                            Stop: "Stop 5: Rancho Arrival – Souvenirs & Cooldown",
+                            Answer: "Return to the base after your Punta Cana ATV or Buggy adventure. You’ll have the opportunity to buy souvenirs and refresh while you wait for your ride back to the hotel."
+                        }
+                    ]
+                },
+                Information6:{
+                    Info: "Please Note",
+                    Answers:[
+                        {
+                            Answer: "Minimum driving age is 18 years"
+                        },
+                        {
+                            Answer: "Minimum age to attend is 8 years"
+                        },
+                        {
+                            Answer: "Must be accompanied by an adult until 17 years of age"
+                        },
+                        {
+                            Answer: "Not recommended for people with back or heart problems"
+                        },
+                        {
+                            Answer: "Not recommended for pregnant travelers"
+                        },
+                        {
+                            Answer: "Customers who appear intoxicated may be refused service"
+                        },
+                        {
+                            Answer: "Activity duration includes transportation time (total ~4 hours)"
+                        }
+                    ]
+                },
+                Information7:{
+                    Info: "Additional Information",
+                    Answers:[
+                        {
+                            Answer: "Confirmation is received at time of booking"
+                        },
+                        {
+                            Answer: "Most travelers can participate"
+                        },
+                        {
+                            Answer: "This activity has a max of 150 participants"
+                        },
+                        {
+                            Answer: "No wheelchair or stroller access"
+                        },
+                        {
+                            Answer: "No public transportation nearby"
+                        },
+                        {
+                            Answer: "Infants must sit on laps"
+                        },
+                        {
+                            Answer: "Infant seats unavailable"
+                        }
+                    ]
+                }
+            }
         }
     },
     //Dutch Translate
@@ -1576,6 +2543,168 @@ export const Language={
             BookingPriceInfo: "$ 35 USD per persoon.",
             BookingCancellationPolicy: " Gratis annuleren tot 24 uur van tevoren.",
             BookButton: "Boek nu uw ATV of buggy"
+        },
+        MainInformationSection:{
+            MainInformationTitle: "Important Information",
+            MainInformationSubtitle: "Before Booking Your ATV and Buggy Tour in Punta Cana",
+            MainInformationDescription: "Please review the following details carefully before reserving your ATV and Buggy adventure. This information includes what's included, what's not, pickup instructions, cancellation policy, age restrictions, and other essential guidelines to ensure a smooth and safe experience.",
+
+            Informations:{
+                Information1:{
+                    Info: "Whats Included",
+                    Answers:[
+                        {
+                            Answer: "Round-trip transportation"
+                        },
+                        {
+                            Answer: "Chocolate and Coffee Tasting, Mamajuana Rum and green tea"
+                        },
+                        {
+                            Answer: "Crystal clear water cenote"
+                        },
+                        {
+                            Answer: "Beautiful Macao Beach"
+                        },
+                        {
+                            Answer: "Entry/Admission – Macao Beach"
+                        },
+                        {
+                            Answer: "Entry/Admission – Dominican Residence"
+                        },
+                    ]
+                },
+                Information2:{
+                    Info: "What’s Not Included",
+                    Answers:[
+                        {
+                            Answer: "Towels"
+                        },
+                        {
+                            Answer: "Old clothes, sunscreen, sunglasses, bandanas, bathing suits"
+                        },
+                        {
+                            Answer: "Professional pictures"
+                        },
+                        {
+                            Answer: "Gratuities for the crew and drivers"
+                        },
+                    ]
+                },
+                Information3:{
+                    Info: "Free Cancellation Policy",
+                    Answers:[
+                        {
+                            Answer: "You can cancel up to 24 hours in advance for a full refund"
+                        },
+                        {
+                            Answer: "If you cancel less than 24 hours before the experience’s start time, no refund will be issued"
+                        },
+                        {
+                            Answer: "No changes less than 24 hours before start time will be accepted"
+                        },
+                        {
+                            Answer: "Times are based on local time"
+                        },
+                    ]
+                },
+                Information4:{
+                    Info: "Pickup Details",
+                    Answers:[
+                        {
+                            Answer: "Pickup offered from Bávaro, Punta Cana (we’ll confirm by email)"
+                        },
+                        {
+                            Answer: "We pick up clients at the hotel lobby or designated meeting point"
+                        },
+                        {
+                            Answer: "Pickup available from 8:00 AM to 12:00 PM and 3:00 PM — these are pickup windows, not exact times"
+                        },
+                        {
+                            Answer: "If staying at an Airbnb, we can arrange a nearby meeting point"
+                        },
+                        {
+                            Answer: "Pickup details are confirmed within 24 hours of booking"
+                        }
+                    ]
+                },
+                Information5:{
+                    Info: "Itinerary",
+                    Answers:[
+                        {
+                            Stop: "Stop 1: Pickup at Hotel or Meeting Point",
+                            Answer: "You’ll be picked up at your hotel in Punta Cana or designated meeting point. Transportation is included in the total experience. Once at the 4×4 ATV & Buggy Ranch, you’ll receive a brief health and safety instruction from your guide before the adventure begins."
+                        },
+                        {
+                            Stop: "Stop 2: Typical Dominican House (30 min)",
+                            Answer: "Start your ATV or Buggy tour riding through tropical landscapes until you reach a traditional Dominican house. Here you’ll taste local chocolate, coffee, green tea, mamajuana, cigars, and handmade tobacco."
+                        },
+                        {
+                            Stop: "Stop 3: Natural Cave Experience (40 min)",
+                            Answer: "Discover one of Punta Cana’s natural treasures. Park your 4×4 ATV or Buggy and dive into a beautiful cave cenote with crystal-clear water. It’s the perfect spot to cool off and take unique photos."
+                        },
+                        {
+                            Stop: "Stop 4: Macao Beach (40 min)",
+                            Answer: "Ride along the scenic trails to Playa Macao — one of the top beaches in Punta Cana. Enjoy free time to walk, swim, shop local, or grab a snack by the water."
+                        },
+                        {
+                            Stop: "Stop 5: Rancho Arrival – Souvenirs & Cooldown",
+                            Answer: "Return to the base after your Punta Cana ATV or Buggy adventure. You’ll have the opportunity to buy souvenirs and refresh while you wait for your ride back to the hotel."
+                        }
+                    ]
+                },
+                Information6:{
+                    Info: "Please Note",
+                    Answers:[
+                        {
+                            Answer: "Minimum driving age is 18 years"
+                        },
+                        {
+                            Answer: "Minimum age to attend is 8 years"
+                        },
+                        {
+                            Answer: "Must be accompanied by an adult until 17 years of age"
+                        },
+                        {
+                            Answer: "Not recommended for people with back or heart problems"
+                        },
+                        {
+                            Answer: "Not recommended for pregnant travelers"
+                        },
+                        {
+                            Answer: "Customers who appear intoxicated may be refused service"
+                        },
+                        {
+                            Answer: "Activity duration includes transportation time (total ~4 hours)"
+                        }
+                    ]
+                },
+                Information7:{
+                    Info: "Additional Information",
+                    Answers:[
+                        {
+                            Answer: "Confirmation is received at time of booking"
+                        },
+                        {
+                            Answer: "Most travelers can participate"
+                        },
+                        {
+                            Answer: "This activity has a max of 150 participants"
+                        },
+                        {
+                            Answer: "No wheelchair or stroller access"
+                        },
+                        {
+                            Answer: "No public transportation nearby"
+                        },
+                        {
+                            Answer: "Infants must sit on laps"
+                        },
+                        {
+                            Answer: "Infant seats unavailable"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
