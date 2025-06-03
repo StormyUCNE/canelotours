@@ -17,8 +17,8 @@ function ReviewsSection() {
     const {texts} = useLanguage();
     const [expandedIndex, setExpandedIndex] = useState<number | null>(null)
     const handleToggle = (index: number) => {
-    setExpandedIndex(prev => (prev === index ? null : index));
-};
+        setExpandedIndex(prev => (prev === index ? null : index));
+    };
   return (
     <>
         <section className="ReviewGeneral">

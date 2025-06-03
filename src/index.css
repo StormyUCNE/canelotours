@@ -1494,7 +1494,6 @@ body{
   font-weight: 500;
   line-height: 22px;
   color: #A8583C;
-  margin-top: 4%;
   text-align: center;
 }
 .ReservationDetails span{
@@ -1529,6 +1528,9 @@ body{
   .ReservationSubtitle{
     font-size: 22px;
   }
+  .ReservationDetails{
+    margin-top: 4%;
+  }
   .ReservationButton{
     width: 95%;
     text-align: center;
@@ -1537,5 +1539,134 @@ body{
     padding: 15px 15px 15px 15px;
   }
 }
+
+/*Information Section Styles*/
+.InformationGeneral{
+  max-width: 100%;
+}
+.InformationHeadline{
+  line-height: 1;
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.InformationHeadline >:nth-child(1){
+  font-family: "Pacifico", Sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 45px;
+  margin-bottom: 0%;
+}
+.InformationHeadline >:nth-child(2){
+  font-family: "Baloo 2", Sans-serif;
+  font-weight: 500;
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.InformationHeadline >:nth-child(3){
+  font-family: "Raleway", Sans-serif;
+  font-weight: 500;
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-bottom: 0%;
+  line-height: 22px;
+  margin: auto;
+  max-width:800px;
+}
+.InfoContaines{
+  max-width: 46%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.InfoItem{
+  background-color:#b57056;
+}
+.InfoTitle{
+  max-width: 100%;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #FFFFFF00;
+  display: flex;
+  align-items: center;
+  color: #315C52;
+  cursor: pointer;
+  padding: 17px 10px 17px 10px;
+  font-family: "Raleway", Sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  height: 25px;
+  border-radius: 5px;
+  margin-bottom: 0%;
+  gap: 5px;
+}
+.AnswerContainer{
+  margin-top: 0%;
+  font-family: "Raleway", Sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  padding: 15px 20px 15px 20px;
+  
+}
+.AnswerList ul li{
+  line-height: 0.4;
+  margin-bottom: 0%;
+}
+.ItineraryAnswerList span{
+  font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+  .InformationHeadline >:nth-child(1){
+    font-size: 32px;
+  }
+  .InformationHeadline >:nth-child(2){
+    margin-top: 15px;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .InformationHeadline >:nth-child(3){
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .InfoContaines{
+    max-width: 90%;
+  }
+  .AnswerContainer ul li{
+    line-height: 1;
+    margin-bottom: 0%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+  .InformationHeadline >:nth-child(3){
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .InfoContaines{
+    max-width: 80%;
+  }
+  .AnswerContainer ul li{
+    line-height: 1;
+    margin-bottom: 0%;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width:1600px) {
+  .InfoContaines{
+    max-width: 73%;
+  }
+}
+
+
 
 
