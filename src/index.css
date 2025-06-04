@@ -1584,6 +1584,7 @@ body{
 }
 .InfoItem{
   background-color:#b57056;
+  transition: all 2s ease-in-out;
 }
 .InfoTitle{
   max-width: 100%;
@@ -1613,7 +1614,7 @@ body{
   
 }
 .AnswerList ul li{
-  line-height: 0.4;
+  line-height: 0.9;
   margin-bottom: 0%;
 }
 .ItineraryAnswerList span{
@@ -1666,6 +1667,98 @@ body{
   }
 }
 
+/*Contacts Section Styles*/
+.ContactGeneral{
+  max-width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-top: 150px;
+  color: #FFFFFF;
+  font-family: "Raleway", Sans-serif;
+}
+.ContactGeneral >:nth-child(1){
+  font-weight: 600;
+}
+.ContactContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 400;
+  gap: 10px;
 
+}
+.ContactContent a{
+  color: #FFFFFF;
+}
+.ContactContent >:nth-child(1), .ContactContent >:nth-child(2){
+  margin-top: 0%;
 
+}
+.SocialMediaIcon{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+.SocialMediaIcon img{
+  transition: transform 0.4s ease-in-out;
+}
+.SocialMediaIcon img:hover{
+  transform: scale(1.1);
+  transition: transform 0.4s ease-in-out;
+  opacity: 80%;
+}
+.UbicationOperation span{
+  font-weight: 600;
+}
+.UbicationOperation >:nth-child(2), .UbicationOperation >:nth-child(4){
+  font-weight: bold;
+}
+.UbicationOperation >:nth-child(3), .UbicationOperation >:nth-child(5){
+  margin-top: -1%;
+}
+@media screen and (max-width: 767px) {
+  .ContactGeneral{
+    max-width: 90%;
+    margin-top: 15%;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width:1600px) {
+  .ContactGeneral{
+    max-width: 90%;
+  }
+}
+
+/*Footer Section Styles*/
+.FooterGeneral{
+  background-color: #793821;
+  color: #FFFFFF;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway", Sans-serif;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap: 200px;
+}
+.FooterGeneral a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+@media screen and (max-width: 767px) {
+  .FooterGeneral{
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width:1600px) {
+  .FooterGeneral{
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
 

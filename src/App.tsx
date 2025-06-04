@@ -9,6 +9,8 @@ import ReviewsSection from './Components/ReviewsSection/ReviewsSection'
 import TrustSection from './Components/TrustSection/TrustSection'
 import WhatsIncluded from './Components/WhatsIncluded/WhatsIncluded'
 import MainInformationSection from './Components/MainInformationSection/MainInformationSection'
+import ContactSection from './Components/ContactSection/ContactSection'
+import Footer from './Components/Footer/Footer'
 function AppContent() {
   const { texts } = useLanguage();
   useEffect(() => {
@@ -24,6 +26,8 @@ function AppContent() {
       <ReviewsSection />
       <ReservationSection />
       <MainInformationSection/>
+      <ContactSection/>
+      <Footer/>
     </>
   );
 }
