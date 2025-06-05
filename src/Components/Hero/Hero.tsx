@@ -25,7 +25,7 @@ function Hero() {
         />
       </picture>
       <div className="HeroContent">
-        <img className="Logo" src={Logo}  alt="Hero Logo" fetchPriority="high" loading="lazy" width={885} height={554} />
+        <img className="Logo" src={Logo}  alt="Hero Logo" fetchPriority="high" loading="lazy" width={300} height={188} />
         <p className="Fisttitle">{texts.HeroSection.HeroTitle}</p>
         <p className="Description">{texts.HeroSection.Description}</p>
         <a className="BookingButton" href="https://canelotours.com/atv-and-buggy-tours-in-punta-cana/book-atv-buggy/">
@@ -33,7 +33,7 @@ function Hero() {
           {texts.HeroSection.ReservationButton}
         </a>
         <p className="Price">{texts.HeroSection.Price}</p>
-        <img className="Payments" src={Paymentmethods} decoding="async" loading="lazy" alt="Payment methods" width={1412} height={166} />
+        <img className="Payments" src={Paymentmethods} decoding="async" loading="lazy" alt="Payment methods" width={600} height={70} />
       </div>
     </div>
   )
