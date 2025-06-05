@@ -11,6 +11,8 @@ import RouteLine3 from "../../assets/Imgs/WhatsIncluded/RouteLine3.svg"
 import NumberThreeImg from "../../assets/Imgs/WhatsIncluded/NumberThreeLine.svg"
 import RouteLine4 from "../../assets/Imgs/WhatsIncluded/RouteLine4.svg"
 import NumberFourImg from "../../assets/Imgs/WhatsIncluded/NumberFourLine.svg"
+import RightHandIcon from "../../assets/Imgs/WhatsIncluded/RightHandIcon.webp"
+import ApprovedIcon from "../../assets/Imgs/WhatsIncluded/ApprovedIcon.webp"
 import { useLanguage } from "../Language/LanguageContext"
 function WhatsIncluded() {
   const {texts} = useLanguage();
@@ -42,7 +44,10 @@ function WhatsIncluded() {
                   <div className="ItineraryContentRow1">
                     <p className="ItineraryMainTitle">{texts.WhatsIncludedSection.Itinerary1.Title}</p>
                     <p className="ItineraryDescription">{texts.WhatsIncludedSection.Itinerary1.Details}</p>
-                    <a href="#" className="ItineraryButton"><button>{texts.WhatsIncludedSection.Itinerary1.LinkBookButton}</button></a>
+                    <a href="https://canelotours.com/atv-and-buggy-tours-in-punta-cana/book-atv-buggy/" className="ItineraryButton">
+                      <img src={RightHandIcon} alt="Right Hand Icon"  width={25} height={25} />
+                      {texts.WhatsIncludedSection.Itinerary1.LinkBookButton}
+                    </a>
                     <p className="ItineraryPrice">{texts.WhatsIncludedSection.Itinerary1.Price}</p>
                   </div>
                 </div>
@@ -88,7 +93,10 @@ function WhatsIncluded() {
                   <div className="ItineraryContentRow1">
                     <p className="ItineraryMainTitle">{texts.WhatsIncludedSection.Itinerary5.Title}</p>
                     <p className="ItineraryDescription">{texts.WhatsIncludedSection.Itinerary5.Details}</p>
-                    <a href="#" className="ItineraryButton"><button>{texts.WhatsIncludedSection.Itinerary5.LinkBookButton}</button></a>
+                    <a href="https://canelotours.com/atv-and-buggy-tours-in-punta-cana/book-atv-buggy/" className="ItineraryButton">
+                      <img src={ApprovedIcon} alt="Approved Icon" width={18} height={18} />
+                      {texts.WhatsIncludedSection.Itinerary5.LinkBookButton}
+                    </a>
                     <p className="ItineraryPrice">{texts.WhatsIncludedSection.Itinerary5.Price}</p>
                   </div>
                 </div>

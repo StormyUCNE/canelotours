@@ -24,7 +24,7 @@ function LanguageSelector() {
   const current = options.find((o) => o.code === language);
   return (
     <>
-        <div className="LanguageSelector">
+        <div className="LanguageSelector" onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>
           <div className="selected" onClick={() => setOpen(!open)}>
               <img src={current?.icon} alt={current?.label} width={35} height={35} />
               <span>{current?.code}</span>

@@ -11,6 +11,7 @@ import WhatsIncluded from './Components/WhatsIncluded/WhatsIncluded'
 import MainInformationSection from './Components/MainInformationSection/MainInformationSection'
 import ContactSection from './Components/ContactSection/ContactSection'
 import Footer from './Components/Footer/Footer'
+import WhatsAppGadget from './Components/WhatsAppGadget/WhatsAppGadget'
 function AppContent() {
   const { texts } = useLanguage();
   useEffect(() => {
@@ -19,6 +20,7 @@ function AppContent() {
   return (
     <>
       <LanguageSelector />
+      <WhatsAppGadget/>
       <Hero />
       <TrustSection />
       <RealRiders />
