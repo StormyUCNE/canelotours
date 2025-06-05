@@ -41,8 +41,7 @@ function LanguageSelector() {
                       setOpen(false);
                   }}
                   >
-                  <img src={opt.icon} alt={opt.label} width={35} height={35} fetchPriority="high" loading="eager"
-                decoding="async" />
+                  <img src={opt.icon} alt={opt.label} width={35} height={35} />
                   <span>{opt.label}</span>
                   </div>
               ))}
