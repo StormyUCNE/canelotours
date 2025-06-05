@@ -19,7 +19,7 @@ function MainInformationSection() {
             <article className="InfoContaines">
                 <div className="InfoItem">
                     <div className={`InfoTitle ${expandedIndex === 1 ? "expanded" : ""}`} onClick={() => handleToggle(1)}>
-                        <img src={expandedIndex === 1 ? MinusIcon : PlusIcon} alt="Plus Icon" width={22} height={22} loading="lazy" decoding="async" />
+                        <img src={expandedIndex === 1 ? MinusIcon : PlusIcon} alt="Plus Icon" width={22} height={22} />
                         <p>{texts?.MainInformationSection?.Informations?.Information1?.Info}</p>
                     </div>
                     {expandedIndex === 1 && (
@@ -37,7 +37,7 @@ function MainInformationSection() {
 
                 <div className="InfoItem">
                     <div className={`InfoTitle ${expandedIndex === 2 ? "expanded" : ""}`} onClick={() => handleToggle(2)}>
-                        <img src={expandedIndex === 2 ? MinusIcon : PlusIcon} alt="Plus Icon" width={22} height={22} loading="lazy" decoding="async" />
+                        <img src={expandedIndex === 2 ? MinusIcon : PlusIcon} alt="Plus Icon" width={22} height={22} />
                     <p>{texts?.MainInformationSection?.Informations?.Information2?.Info}</p>
                     </div>
                     {expandedIndex === 2 && (
@@ -55,7 +55,7 @@ function MainInformationSection() {
 
                 <div className="InfoItem">
                     <div className={`InfoTitle ${expandedIndex === 3 ? "expanded" : ""}`} onClick={() => handleToggle(3)}>
-                        <img src={expandedIndex === 3 ? MinusIcon : PlusIcon} alt="Plus Icon" width={22} height={22} loading="lazy" decoding="async"/>
+                        <img src={expandedIndex === 3 ? MinusIcon : PlusIcon} alt="Plus Icon" width={22} height={22} />
                         <p>{texts?.MainInformationSection?.Informations?.Information3?.Info}</p>
                     </div>
                     {expandedIndex === 3 && (
@@ -73,7 +73,7 @@ function MainInformationSection() {
 
                 <div className="InfoItem">
                     <div className={`InfoTitle ${expandedIndex === 4 ? "expanded" : ""}`} onClick={() => handleToggle(4)}>
-                        <img src={expandedIndex === 4 ? MinusIcon : PlusIcon} alt="Plus Icon" width={22} height={22} loading="lazy" decoding="async"/>
+                        <img src={expandedIndex === 4 ? MinusIcon : PlusIcon} alt="Plus Icon" width={22} height={22} />
                         <p>{texts?.MainInformationSection?.Informations?.Information4?.Info}</p>
                     </div>
                     {expandedIndex === 4 && (
@@ -91,7 +91,7 @@ function MainInformationSection() {
 
                 <div className="InfoItem">
                     <div className={`InfoTitle ${expandedIndex === 5 ? "expanded" : ""}`} onClick={() => handleToggle(5)}>
-                        <img src={expandedIndex === 5 ? MinusIcon : PlusIcon} alt="Plus Icon" width={22} height={22} loading="lazy" decoding="async"/>
+                        <img src={expandedIndex === 5 ? MinusIcon : PlusIcon} alt="Plus Icon" width={22} height={22} />
                         <p>{texts?.MainInformationSection?.Informations?.Information5?.Info}</p>
                     </div>
                     {expandedIndex === 5 && (
@@ -112,7 +112,7 @@ function MainInformationSection() {
 
                 <div className="InfoItem">
                     <div className={`InfoTitle ${expandedIndex === 6 ? "expanded" : ""}`} onClick={() => handleToggle(6)}>
-                        <img src={expandedIndex === 6 ? MinusIcon : PlusIcon} alt="Plus Icon" width={22} height={22} loading="lazy" decoding="async"/>
+                        <img src={expandedIndex === 6 ? MinusIcon : PlusIcon} alt="Plus Icon" width={22} height={22} />
                         <p>{texts?.MainInformationSection?.Informations?.Information6?.Info}</p>
                     </div>
                     {expandedIndex === 6 && (
@@ -130,7 +130,7 @@ function MainInformationSection() {
 
                 <div className="InfoItem">
                     <div className={`InfoTitle ${expandedIndex === 7 ? "expand" : ""}`} onClick={() => handleToggle(7)}>
-                        <img src={expandedIndex === 7 ? MinusIcon : PlusIcon} alt="Plus Icon" width={22} height={22} loading="lazy" decoding="async"/>
+                        <img src={expandedIndex === 7 ? MinusIcon : PlusIcon} alt="Plus Icon" width={22} height={22} />
                         <p>{texts?.MainInformationSection?.Informations?.Information7?.Info}</p>
                     </div>
                     {expandedIndex === 7 && (

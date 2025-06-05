@@ -25,15 +25,15 @@ function Hero() {
         />
       </picture>
       <div className="HeroContent">
-        <img className="Logo" src={Logo}  alt="Hero Logo" fetchPriority="high" loading="lazy" width={300} height={188} />
+        <img className="Logo" src={Logo}  alt="Hero Logo" fetchPriority="high" loading="eager" width={300} height={188} />
         <p className="Fisttitle">{texts.HeroSection.HeroTitle}</p>
         <p className="Description">{texts.HeroSection.Description}</p>
         <a className="BookingButton" href="https://canelotours.com/atv-and-buggy-tours-in-punta-cana/book-atv-buggy/">
-          <img src={ApprovedIcon} alt="Approved Icon" width={18} height={18} />
+          <img src={ApprovedIcon} alt="Approved Icon" width={18} height={18} fetchPriority="high" loading="eager" />
           {texts.HeroSection.ReservationButton}
         </a>
         <p className="Price">{texts.HeroSection.Price}</p>
-        <img className="Payments" src={Paymentmethods} decoding="async" loading="lazy" alt="Payment methods" width={600} height={70} />
+        <img className="Payments" src={Paymentmethods} fetchPriority="high" loading="eager" alt="Payment methods" width={600} height={70} />
       </div>
     </div>
   )
